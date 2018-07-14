@@ -2,7 +2,7 @@
 // Sealed m19, also for Draft "you"
 //
 //
-// git test
+// git test - mostrar pro mozão
 function draft() {
     rares.sort(function(){return 0.5 - Math.random()});
     document.getElementById("rare").src = rares[0];
@@ -16,7 +16,7 @@ function draft3() {
     document.getElementById("uncommon2").src = uncommon[0];
     while (document.getElementById("uncommon1").src == document.getElementById("uncommon2").src) {
         uncommon.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("uncommon2").src = uncommon[0];  
+        document.getElementById("uncommon2").src = uncommon[0];
     }
 }
 function draft4() {
@@ -27,7 +27,7 @@ function draft4() {
         ||document.getElementById("uncommon3").src == document.getElementById("uncommon1").src)
         {
         uncommon.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("uncommon3").src = uncommon[0]; 
+        document.getElementById("uncommon3").src = uncommon[0];
     }
 }
 function draft5() {
@@ -41,7 +41,7 @@ function draft6() {
         document.getElementById("common2").src == document.getElementById("common1").src
     ) {
         common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("common2").src = common[0];  
+        document.getElementById("common2").src = common[0];
     }
 }
 function draft7() {
@@ -106,7 +106,7 @@ function draft11() {
         ||document.getElementById("common7").src == document.getElementById("common6").src
     ) {
         common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("common7").src = common[0]; 
+        document.getElementById("common7").src = common[0];
     }
 }
 function draft12() {
@@ -122,7 +122,7 @@ function draft12() {
         ||document.getElementById("common8").src == document.getElementById("common7").src
     ) {
         common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("common8").src = common[0]; 
+        document.getElementById("common8").src = common[0];
     }
 }
 function draft13() {
@@ -176,7 +176,7 @@ function draft15() {
         ||document.getElementById("common11").src == document.getElementById("common10").src
     ) {
         common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("common11").src = common[0]; 
+        document.getElementById("common11").src = common[0];
     }
 }
 //
@@ -198,7 +198,7 @@ function pDraft3() {
         document.getElementById("pUncommon2").src ==  document.getElementById("pUncommon1").src
     ) {
         pUncommon.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pUncommon2").src = pUncommon[0];  
+        document.getElementById("pUncommon2").src = pUncommon[0];
     }
     }
 function pDraft4() {
@@ -223,7 +223,7 @@ function pDraft6() {
         ||document.getElementById("pCommon3").src == document.getElementById("pCommon1").src
     ) {
         pCommon.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pCommon3").src = pCommon[0]; 
+        document.getElementById("pCommon3").src = pCommon[0];
     }
 }
 //
@@ -239,7 +239,7 @@ function tDraft2() {
     document.getElementById("tTest2").src = test[0];
     while (document.getElementById("tTest1").src == document.getElementById("tTest2").src) {
         test.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("tTest2").src = test[0]; 
+        document.getElementById("tTest2").src = test[0];
     }
 }
 //
@@ -287,7 +287,7 @@ function pod1draft3() {
     document.getElementById("pod1uncommon2").src = uncommon[0];
     while (document.getElementById("pod1uncommon1").src == document.getElementById("pod1uncommon2").src) {
         uncommon.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod1uncommon2").src = uncommon[0];  
+        document.getElementById("pod1uncommon2").src = uncommon[0];
     }
 }
 function pod1draft4() {
@@ -298,7 +298,7 @@ function pod1draft4() {
         ||document.getElementById("pod1uncommon3").src == document.getElementById("pod1uncommon1").src)
         {
         uncommon.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod1uncommon3").src = uncommon[0]; 
+        document.getElementById("pod1uncommon3").src = uncommon[0];
     }
 }
 function pod1draft5() {
@@ -312,7 +312,7 @@ function pod1draft6() {
         document.getElementById("pod1common2").src == document.getElementById("pod1common1").src
     ) {
         common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod1common2").src = common[0];  
+        document.getElementById("pod1common2").src = common[0];
     }
 }
 function pod1draft7() {
@@ -377,7 +377,7 @@ function pod1draft11() {
         ||document.getElementById("pod1common7").src == document.getElementById("pod1common6").src
     ) {
         common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod1common7").src = common[0]; 
+        document.getElementById("pod1common7").src = common[0];
     }
 }
 function pod1draft12() {
@@ -393,7 +393,7 @@ function pod1draft12() {
         ||document.getElementById("pod1common8").src == document.getElementById("pod1common7").src
     ) {
         common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod1common8").src = common[0]; 
+        document.getElementById("pod1common8").src = common[0];
     }
 }
 function pod1draft13() {
@@ -447,7 +447,7 @@ function pod1draft15() {
         ||document.getElementById("pod1common11").src == document.getElementById("pod1common10").src
     ) {
         common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod1common11").src = common[0]; 
+        document.getElementById("pod1common11").src = common[0];
     }
 }
 //
@@ -467,7 +467,7 @@ function pod2draft3() {
     document.getElementById("pod2uncommon2").src = uncommon[0];
     while (document.getElementById("pod2uncommon1").src == document.getElementById("pod2uncommon2").src) {
         uncommon.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod2uncommon2").src = uncommon[0];  
+        document.getElementById("pod2uncommon2").src = uncommon[0];
     }
 }
 function pod2draft4() {
@@ -478,7 +478,7 @@ function pod2draft4() {
         ||document.getElementById("pod2uncommon3").src == document.getElementById("pod2uncommon1").src)
         {
         uncommon.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod2uncommon3").src = uncommon[0]; 
+        document.getElementById("pod2uncommon3").src = uncommon[0];
     }
 }
 function pod2draft5() {
@@ -492,7 +492,7 @@ function pod2draft6() {
         document.getElementById("pod2common2").src == document.getElementById("pod2common1").src
     ) {
         common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod2common2").src = common[0];  
+        document.getElementById("pod2common2").src = common[0];
     }
 }
 function pod2draft7() {
@@ -557,7 +557,7 @@ function pod2draft11() {
         ||document.getElementById("pod2common7").src == document.getElementById("pod2common6").src
     ) {
         common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod2common7").src = common[0]; 
+        document.getElementById("pod2common7").src = common[0];
     }
 }
 function pod2draft12() {
@@ -573,7 +573,7 @@ function pod2draft12() {
         ||document.getElementById("pod2common8").src == document.getElementById("pod2common7").src
     ) {
         common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod2common8").src = common[0]; 
+        document.getElementById("pod2common8").src = common[0];
     }
 }
 function pod2draft13() {
@@ -627,7 +627,7 @@ function pod2draft15() {
         ||document.getElementById("pod2common11").src == document.getElementById("pod2common10").src
     ) {
         common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod2common11").src = common[0]; 
+        document.getElementById("pod2common11").src = common[0];
     }
 }
 //
@@ -647,7 +647,7 @@ function pod3draft3() {
     document.getElementById("pod3uncommon2").src = uncommon[0];
     while (document.getElementById("pod3uncommon1").src == document.getElementById("pod3uncommon2").src) {
         uncommon.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod3uncommon2").src = uncommon[0];  
+        document.getElementById("pod3uncommon2").src = uncommon[0];
     }
 }
 function pod3draft4() {
@@ -658,7 +658,7 @@ function pod3draft4() {
         ||document.getElementById("pod3uncommon3").src == document.getElementById("pod3uncommon1").src)
         {
         uncommon.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod3uncommon3").src = uncommon[0]; 
+        document.getElementById("pod3uncommon3").src = uncommon[0];
     }
 }
 function pod3draft5() {
@@ -672,7 +672,7 @@ function pod3draft6() {
         document.getElementById("pod3common2").src == document.getElementById("pod3common1").src
     ) {
         common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod3common2").src = common[0];  
+        document.getElementById("pod3common2").src = common[0];
     }
 }
 function pod3draft7() {
@@ -737,7 +737,7 @@ function pod3draft11() {
         ||document.getElementById("pod3common7").src == document.getElementById("pod3common6").src
     ) {
         common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod3common7").src = common[0]; 
+        document.getElementById("pod3common7").src = common[0];
     }
 }
 function pod3draft12() {
@@ -753,7 +753,7 @@ function pod3draft12() {
         ||document.getElementById("pod3common8").src == document.getElementById("pod3common7").src
     ) {
         common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod3common8").src = common[0]; 
+        document.getElementById("pod3common8").src = common[0];
     }
 }
 function pod3draft13() {
@@ -807,7 +807,7 @@ function pod3draft15() {
         ||document.getElementById("pod3common11").src == document.getElementById("pod3common10").src
     ) {
         common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod3common11").src = common[0]; 
+        document.getElementById("pod3common11").src = common[0];
     }
 }
 //
@@ -827,7 +827,7 @@ function pod4draft3() {
     document.getElementById("pod4uncommon2").src = uncommon[0];
     while (document.getElementById("pod4uncommon1").src == document.getElementById("pod4uncommon2").src) {
         uncommon.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod4uncommon2").src = uncommon[0];  
+        document.getElementById("pod4uncommon2").src = uncommon[0];
     }
 }
 function pod4draft4() {
@@ -838,7 +838,7 @@ function pod4draft4() {
         ||document.getElementById("pod4uncommon3").src == document.getElementById("pod4uncommon1").src)
         {
         uncommon.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod4uncommon3").src = uncommon[0]; 
+        document.getElementById("pod4uncommon3").src = uncommon[0];
     }
 }
 function pod4draft5() {
@@ -852,7 +852,7 @@ function pod4draft6() {
         document.getElementById("pod4common2").src == document.getElementById("pod4common1").src
     ) {
         common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod4common2").src = common[0];  
+        document.getElementById("pod4common2").src = common[0];
     }
 }
 function pod4draft7() {
@@ -917,7 +917,7 @@ function pod4draft11() {
         ||document.getElementById("pod4common7").src == document.getElementById("pod4common6").src
     ) {
         common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod4common7").src = common[0]; 
+        document.getElementById("pod4common7").src = common[0];
     }
 }
 function pod4draft12() {
@@ -933,7 +933,7 @@ function pod4draft12() {
         ||document.getElementById("pod4common8").src == document.getElementById("pod4common7").src
     ) {
         common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod4common8").src = common[0]; 
+        document.getElementById("pod4common8").src = common[0];
     }
 }
 function pod4draft13() {
@@ -987,7 +987,7 @@ function pod4draft15() {
         ||document.getElementById("pod4common11").src == document.getElementById("pod4common10").src
     ) {
         common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod4common11").src = common[0]; 
+        document.getElementById("pod4common11").src = common[0];
     }
 }
 //
@@ -1007,7 +1007,7 @@ function pod5draft3() {
     document.getElementById("pod5uncommon2").src = uncommon[0];
     while (document.getElementById("pod5uncommon1").src == document.getElementById("pod5uncommon2").src) {
         uncommon.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod5uncommon2").src = uncommon[0];  
+        document.getElementById("pod5uncommon2").src = uncommon[0];
     }
 }
 function pod5draft4() {
@@ -1018,7 +1018,7 @@ function pod5draft4() {
         ||document.getElementById("pod5uncommon3").src == document.getElementById("pod5uncommon1").src)
         {
         uncommon.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod5uncommon3").src = uncommon[0]; 
+        document.getElementById("pod5uncommon3").src = uncommon[0];
     }
 }
 function pod5draft5() {
@@ -1032,7 +1032,7 @@ function pod5draft6() {
         document.getElementById("pod5common2").src == document.getElementById("pod5common1").src
     ) {
         common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod5common2").src = common[0];  
+        document.getElementById("pod5common2").src = common[0];
     }
 }
 function pod5draft7() {
@@ -1097,7 +1097,7 @@ function pod5draft11() {
         ||document.getElementById("pod5common7").src == document.getElementById("pod5common6").src
     ) {
         common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod5common7").src = common[0]; 
+        document.getElementById("pod5common7").src = common[0];
     }
 }
 function pod5draft12() {
@@ -1113,7 +1113,7 @@ function pod5draft12() {
         ||document.getElementById("pod5common8").src == document.getElementById("pod5common7").src
     ) {
         common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod5common8").src = common[0]; 
+        document.getElementById("pod5common8").src = common[0];
     }
 }
 function pod5draft13() {
@@ -1167,7 +1167,7 @@ function pod5draft15() {
         ||document.getElementById("pod5common11").src == document.getElementById("pod5common10").src
     ) {
         common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod5common11").src = common[0]; 
+        document.getElementById("pod5common11").src = common[0];
     }
 }
 //
