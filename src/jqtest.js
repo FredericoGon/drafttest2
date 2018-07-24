@@ -11,5 +11,6 @@ $("#createButton").click(function(){
     "src" : rares[x]
     });
     $("#createDiv").append(img1);
+    $("#createButton").remove();
 });
 });
