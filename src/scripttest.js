@@ -1598,3 +1598,75 @@ var test = [
     "http://mythicspoiler.com/m19/cards/woodlandstream1.jpg",
     "http://mythicspoiler.com/m19/cards/totallylost.jpg"
 ]
+var arrayTest = [
+  {
+    name:"Tezzeret, Artifice Master",
+    cost:["blue", "blue", "colorless", "colorless", "colorless"],
+    rarity:"rare",
+    rating: 3.5,
+    source:"http://mythicspoiler.com/m19/cards/tezzeretartificemaster1.jpg"
+  },
+  {
+    name:"Ajani, Adversary of Tyrants",
+    cost:["white", "white", "colorless", "colorless"],
+    rarity: "rare",
+    rating: 4,
+    source:"http://mythicspoiler.com/m19/cards/ajaniadversaryoftyrants1.jpg"
+  },
+  {
+    name:"Liliana, Untouched by Death",
+    cost:["black", "black", "colorless", "colorless"],
+    rarity:"rare",
+    rating: 2.5,
+    source:"http://mythicspoiler.com/m19/cards/lilianauntouchedbydeath1.jpg"
+  },
+  {
+    name:"Sarkhan, Fireblood",
+    cost:["red", "red", "colorless"],
+    rarity:"rare",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/sarkhanfireblood.jpg"
+  },
+  {
+    name:"Vivien Reid",
+    cost:["green", "green","colorless", "colorless", "colorless"],
+    rarity:"rare",
+    rating: 3.5,
+    source:"http://mythicspoiler.com/m19/cards/vivienreid.jpg"
+  },
+  {
+    name:"Shield Mare",
+    cost:["white", "white", "colorless"],
+    rarity:"uncommon",
+    rating: 2,
+    source:"http://mythicspoiler.com/m19/cards/shieldmare.jpg"
+  },
+  {
+    name:"Surge Mare",
+    cost:["blue", "blue"],
+    rarity:"uncommon",
+    rating: 1,
+    source:"http://mythicspoiler.com/m19/cards/surgemare.jpg"
+  },
+  {
+    name:"Plague Mare",
+    cost:["black", "black", "colorless"],
+    rarity:"uncommon",
+    rating: 2.5,
+    source:"http://mythicspoiler.com/m19/cards/plaguemare.jpg"
+  },
+  {
+    name:"Lightning Mare",
+    cost:["red", "red"],
+    rarity:"uncommon",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/lightningmare.jpg"
+  },
+  {
+    name:"Vine Mare",
+    cost:["green", "green", "colorless", "colorless"],
+    rarity:"uncommon",
+    rating: 4,
+    source:"http://mythicspoiler.com/m19/cards/vinemare1.jpg"
+  },
+]
