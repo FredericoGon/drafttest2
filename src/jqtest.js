@@ -24,17 +24,23 @@ $("#createButton2").click(()=>{
     $("#createButton2").remove();
 
   var arrayUncommon = arrayTest.filter(carta => carta.rarity == "uncommon")
-  var y = Math.floor((Math.random() * 4) + 1);
+  var max = arrayUncommon.length
+  var x = Math.floor((Math.random() * max));
   var img3 = $("<img>").attr({
-  "src" : arrayUncommon[y].source
+  "src" : arrayUncommon[x].source
   });
   $("#createDiv2").append(img3);
 
-  var z = Math.floor((Math.random() * 9) + 1);
+  var arrayCommon = arrayTest.filter(carta => carta.rarity == "common")
+  var max = arrayCommon.length
+  var x = Math.floor((Math.random() * max));
   var img4 = $("<img>").attr({
-  "src" : arrayTest[z].source
+  "src" : arrayCommon[x].source
   });
   $("#createDiv2").append(img4);
-
 });
+$("#colors").click(()=>{
+  // aqui vai a função para organizar o booster por cores!!
+})
+
 });

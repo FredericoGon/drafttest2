@@ -1669,4 +1669,39 @@ var arrayTest = [
     rating: 4,
     source:"http://mythicspoiler.com/m19/cards/vinemare1.jpg"
   },
+  {
+    name:"Invoke the Divine",
+    cost:["white", "colorless", "colorless"],
+    rarity:"common",
+    rating: 0.5,
+    source:"http://mythicspoiler.com/m19/cards/invokethedivine1.jpg"
+  },
+  {
+    name:"Aviation Pioneer",
+    cost:["blue", "colorless", "colorless"],
+    rarity:"common",
+    rating: 2,
+    source:"http://mythicspoiler.com/m19/cards/aviationpioneer1.jpg"
+  },
+  {
+    name:"Bogstomper",
+    cost:["black", "black", "colorless", "colorless", "colorless", "colorless"],
+    rarity:"common",
+    rating: 2,
+    source:"http://mythicspoiler.com/m19/cards/bogstomper.jpg"
+  },
+  {
+    name:"Act of Treason",
+    cost:["red", "colorless", "colorless"],
+    rarity:"common",
+    rating: 2.5,
+    source:"http://mythicspoiler.com/m19/cards/actoftreason1.jpg"
+  },
+  {
+    name:"Bristling Boar",
+    cost:["green", "colorless","colorless", "colorless"],
+    rarity:"common",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/bristlingboar.jpg"
+  },
 ]
