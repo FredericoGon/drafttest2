@@ -2,7 +2,6 @@
 // Sealed m19, also for Draft "you"
 //
 //
-// git test - mostrar pro mozão
 function draft() {
     rares.sort(function(){return 0.5 - Math.random()});
     document.getElementById("rare").src = rares[0];
@@ -242,34 +241,6 @@ function tDraft2() {
         document.getElementById("tTest2").src = test[0];
     }
 }
-//
-//
-//
-//
-//
-//
-//
-// Better way to randomize!!!!
-//
-// Just need to remember that the max number must be updated for each function!
-//
-//
-//
-//
-//
-//
-//
-function tDraft3() {
-    var x = Math.floor((Math.random() * 119) + 1);
-    document.getElementById("tTest3").src = rares[x];
-}
-//
-//
-//
-//
-//
-//
-
 //
 // Draft / Pod1
 //
