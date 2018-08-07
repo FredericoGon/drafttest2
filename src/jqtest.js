@@ -31,6 +31,18 @@ $("#createButton2").click(()=>{
   $("#createDiv2").append(img4);
 });
 
+// Fazer uma função com tudo necessário para criar a carta
+
+function generateCard(nomeDaArray, cardNumber){
+var max = nomeDaArray.length
+var cardNumber = Math.floor((Math.random() * max));
+booster.push(nomeDaArray[cardNumber])
+var img = $("<img>").attr({
+  "src" : booster[cardNumber].source
+  });
+  return img;
+}
+
 // Tentar fazer o código para gerar uma nova array com o Booster
 
 $("#generateBooster").click(()=>{
@@ -40,34 +52,32 @@ var arrayRare = arrayTest.filter(carta => carta.rarity == "rare")
 var max = arrayRare.length
 var card1 = Math.floor((Math.random() * max));
 booster.push(arrayRare[card1])
+var imgC1 = $("<img>").attr({
+  "src" : booster[0].source
+  });
+  $("#createBoosterDiv").append(imgC1);
 //card 2 Uncommon
 var arrayUncommon = arrayTest.filter(carta => carta.rarity == "uncommon")
 var max = arrayUncommon.length
 var card2 = Math.floor((Math.random() * max));
 booster.push(arrayUncommon[card2])
+var imgC2 = $("<img>").attr({
+  "src" : booster[1].source
+  });
+  $("#createBoosterDiv").append(imgC2);
 //card 3 Uncommmon
 var arrayUncommon = arrayTest.filter(carta => carta.rarity == "uncommon")
 var max = arrayUncommon.length
 var card3 = Math.floor((Math.random() * max));
 booster.push(arrayUncommon[card3])
-// create card 1
-var imgC1 = $("<img>").attr({
-  "id" : "firstCard",
-  "src" : booster[0].source
-  });
-  $("#createBoosterDiv").append(imgC1);
-// create card 2
-var imgC2 = $("<img>").attr({
-  "id" : "firstCard",
-  "src" : booster[1].source
-  });
-  $("#createBoosterDiv").append(imgC2);
-// create card 3
 var imgC3 = $("<img>").attr({
-  "id" : "firstCard",
   "src" : booster[2].source
   });
   $("#createBoosterDiv").append(imgC3);
+//card 4 Uncommmon
+var arrayUncommon = arrayTest.filter(carta => carta.rarity == "uncommon")
+var imgC4 = generateCard(arrayUncommon, card4)
+  $("#createBoosterDiv").append(imgC4);
 })
 
 
