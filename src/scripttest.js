@@ -1574,7 +1574,7 @@ var arrayTest = [
     name:"Tezzeret, Artifice Master",
     cost:["blue", "blue", "colorless", "colorless", "colorless"],
     rarity:"rare",
-    rating: 3.5,
+    rating: 4.5,
     source:"http://mythicspoiler.com/m19/cards/tezzeretartificemaster1.jpg"
   },
   {
@@ -1588,22 +1588,29 @@ var arrayTest = [
     name:"Liliana, Untouched by Death",
     cost:["black", "black", "colorless", "colorless"],
     rarity:"rare",
-    rating: 2.5,
+    rating: 1,
     source:"http://mythicspoiler.com/m19/cards/lilianauntouchedbydeath1.jpg"
   },
   {
     name:"Sarkhan, Fireblood",
     cost:["red", "red", "colorless"],
     rarity:"rare",
-    rating: 3,
+    rating: 1,
     source:"http://mythicspoiler.com/m19/cards/sarkhanfireblood.jpg"
   },
   {
     name:"Vivien Reid",
     cost:["green", "green","colorless", "colorless", "colorless"],
     rarity:"rare",
-    rating: 3.5,
+    rating: 4,
     source:"http://mythicspoiler.com/m19/cards/vivienreid.jpg"
+  },
+  {
+    name:"Resplendent Angel",
+    cost:["white", "white","colorless"],
+    rarity:"rare",
+    rating: 5,
+    source:"http://mythicspoiler.com/m19/cards/resplendentangel1.jpg"
   },
   {
     name:"Shield Mare",
