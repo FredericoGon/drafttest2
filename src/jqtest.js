@@ -32,11 +32,12 @@ $("#createButton2").click(()=>{
 });
 
 // Fazer uma função com tudo necessário para criar a carta
+// Ainda não está funcionando, então não estou usando essa Function em lugar nenhum
 
 function generateCard(nomeDaArray, cardNumber){
 var max = nomeDaArray.length
-var cardNumber = Math.floor((Math.random() * max));
-booster.push(nomeDaArray[cardNumber])
+var x = Math.floor((Math.random() * max));
+booster.push(nomeDaArray[x])
 var img = $("<img>").attr({
   "src" : booster[cardNumber].source
   });
@@ -50,8 +51,8 @@ var booster = []
 //card 1 Rare
 var arrayRare = arrayTest.filter(carta => carta.rarity == "rare")
 var max = arrayRare.length
-var card1 = Math.floor((Math.random() * max));
-booster.push(arrayRare[card1])
+var x = Math.floor((Math.random() * max));
+booster.push(arrayRare[x])
 var imgC1 = $("<img>").attr({
   "src" : booster[0].source
   });
@@ -59,26 +60,47 @@ var imgC1 = $("<img>").attr({
 //card 2 Uncommon
 var arrayUncommon = arrayTest.filter(carta => carta.rarity == "uncommon")
 var max = arrayUncommon.length
-var card2 = Math.floor((Math.random() * max));
-booster.push(arrayUncommon[card2])
+var x = Math.floor((Math.random() * max)); // randomizando o que vai gerar a primeira carta
+booster.push(arrayUncommon[x]) // Gerando a primeira carta incomum, que é o item 1 do booster
+while(booster.length != 4){ // Mandando gerar cartas até chegar à 4 cartas no booster
+  max = arrayUncommon.length
+  x = Math.floor((Math.random() * max)); // randomizando as próximas cartas
+  while(booster.find(carta => carta.name == arrayUncommon[x].name)){ //compara
+  max = arrayUncommon.length
+  x = Math.floor((Math.random() * max));
+  }
+  booster.push(arrayUncommon[x])
+}
 var imgC2 = $("<img>").attr({
   "src" : booster[1].source
   });
   $("#createBoosterDiv").append(imgC2);
+
+
+
+
+
 //card 3 Uncommmon
-var arrayUncommon = arrayTest.filter(carta => carta.rarity == "uncommon")
-var max = arrayUncommon.length
-var card3 = Math.floor((Math.random() * max));
-booster.push(arrayUncommon[card3])
+// var arrayUncommon = arrayTest.filter(carta => carta.rarity == "uncommon")
+// var max = arrayUncommon.length
+// var x = Math.floor((Math.random() * max));
+// booster.push(arrayUncommon[x])
 var imgC3 = $("<img>").attr({
   "src" : booster[2].source
   });
   $("#createBoosterDiv").append(imgC3);
 //card 4 Uncommmon
-var arrayUncommon = arrayTest.filter(carta => carta.rarity == "uncommon")
-var imgC4 = generateCard(arrayUncommon, card4)
+// var arrayUncommon = arrayTest.filter(carta => carta.rarity == "uncommon")
+// var max = arrayUncommon.length
+// var x = Math.floor((Math.random() * max));
+// booster.push(arrayUncommon[x])
+var imgC4 = $("<img>").attr({
+  "src" : booster[2].source
+  });
   $("#createBoosterDiv").append(imgC4);
 })
+//card 5 Commmon
+
 
 
 // Teste para organizar as cores
