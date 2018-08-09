@@ -1573,6 +1573,7 @@ var arrayTest = [
   {
     name:"Tezzeret, Artifice Master",
     cost:["blue", "blue", "colorless", "colorless", "colorless"],
+    color:"blue",
     rarity:"rare",
     rating: 4.5,
     source:"http://mythicspoiler.com/m19/cards/tezzeretartificemaster1.jpg"
@@ -1580,6 +1581,7 @@ var arrayTest = [
   {
     name:"Ajani, Adversary of Tyrants",
     cost:["white", "white", "colorless", "colorless"],
+    color:"white",
     rarity: "rare",
     rating: 4,
     source:"http://mythicspoiler.com/m19/cards/ajaniadversaryoftyrants1.jpg"
@@ -1587,6 +1589,7 @@ var arrayTest = [
   {
     name:"Liliana, Untouched by Death",
     cost:["black", "black", "colorless", "colorless"],
+    color:"black",
     rarity:"rare",
     rating: 1,
     source:"http://mythicspoiler.com/m19/cards/lilianauntouchedbydeath1.jpg"
@@ -1594,6 +1597,7 @@ var arrayTest = [
   {
     name:"Sarkhan, Fireblood",
     cost:["red", "red", "colorless"],
+    color:"red",
     rarity:"rare",
     rating: 1,
     source:"http://mythicspoiler.com/m19/cards/sarkhanfireblood.jpg"
@@ -1601,6 +1605,7 @@ var arrayTest = [
   {
     name:"Vivien Reid",
     cost:["green", "green","colorless", "colorless", "colorless"],
+    color:"green",
     rarity:"rare",
     rating: 4,
     source:"http://mythicspoiler.com/m19/cards/vivienreid.jpg"
@@ -1608,6 +1613,7 @@ var arrayTest = [
   {
     name:"Resplendent Angel",
     cost:["white", "white","colorless"],
+    color:"white",
     rarity:"rare",
     rating: 5,
     source:"http://mythicspoiler.com/m19/cards/resplendentangel1.jpg"
@@ -1615,13 +1621,15 @@ var arrayTest = [
   {
     name:"Shield Mare",
     cost:["white", "white", "colorless"],
+    color:"white",
     rarity:"uncommon",
-    rating: 2,
+    rating: 2.5,
     source:"http://mythicspoiler.com/m19/cards/shieldmare.jpg"
   },
   {
     name:"Surge Mare",
     cost:["blue", "blue"],
+    color:"blue",
     rarity:"uncommon",
     rating: 1,
     source:"http://mythicspoiler.com/m19/cards/surgemare.jpg"
@@ -1629,6 +1637,7 @@ var arrayTest = [
   {
     name:"Plague Mare",
     cost:["black", "black", "colorless"],
+    color:"black",
     rarity:"uncommon",
     rating: 2.5,
     source:"http://mythicspoiler.com/m19/cards/plaguemare.jpg"
@@ -1636,6 +1645,7 @@ var arrayTest = [
   {
     name:"Lightning Mare",
     cost:["red", "red"],
+    color:"red",
     rarity:"uncommon",
     rating: 3,
     source:"http://mythicspoiler.com/m19/cards/lightningmare.jpg"
@@ -1643,20 +1653,15 @@ var arrayTest = [
   {
     name:"Vine Mare",
     cost:["green", "green", "colorless", "colorless"],
+    color:"green",
     rarity:"uncommon",
     rating: 4,
     source:"http://mythicspoiler.com/m19/cards/vinemare1.jpg"
   },
   {
-    name:"Invoke the Divine",
-    cost:["white", "colorless", "colorless"],
-    rarity:"common",
-    rating: 0.5,
-    source:"http://mythicspoiler.com/m19/cards/invokethedivine1.jpg"
-  },
-  {
     name:"Aviation Pioneer",
     cost:["blue", "colorless", "colorless"],
+    color:"blue",
     rarity:"common",
     rating: 2,
     source:"http://mythicspoiler.com/m19/cards/aviationpioneer1.jpg"
@@ -1664,6 +1669,7 @@ var arrayTest = [
   {
     name:"Bogstomper",
     cost:["black", "black", "colorless", "colorless", "colorless", "colorless"],
+    color:"black",
     rarity:"common",
     rating: 2,
     source:"http://mythicspoiler.com/m19/cards/bogstomper.jpg"
@@ -1671,6 +1677,7 @@ var arrayTest = [
   {
     name:"Act of Treason",
     cost:["red", "colorless", "colorless"],
+    color:"red",
     rarity:"common",
     rating: 2.5,
     source:"http://mythicspoiler.com/m19/cards/actoftreason1.jpg"
@@ -1678,8 +1685,585 @@ var arrayTest = [
   {
     name:"Bristling Boar",
     cost:["green", "colorless","colorless", "colorless"],
+    color:"green",
     rarity:"common",
     rating: 3,
     source:"http://mythicspoiler.com/m19/cards/bristlingboar.jpg"
+  },
+  {
+    name:"Aegis of Heavens",
+    cost:["white", "colorless"],
+    color:"white",
+    rarity:"uncommon",
+    rating: 1,
+    source:"http://mythicspoiler.com/m19/cards/aegisoftheheavens1.jpg"
+  },
+  {
+    name:"Aethershield Artificer",
+    cost:["white", "colorless", "colorless", "colorless"],
+    color:"white",
+    rarity:"uncommon",
+    rating: 2.0,
+    source:"http://mythicspoiler.com/m19/cards/aethershieldartificer1.jpg"
+  },
+  {
+    name:"Ajani’s Last Stand",
+    cost:["white", "white", "colorless", "colorless"],
+    color:"white",
+    rarity:"rare",
+    rating: 2.5,
+    source:"http://mythicspoiler.com/m19/cards/ajanislaststand1.jpg"
+  },
+  {
+    name:"Ajani’s Pridemate",
+    cost:["white", "colorless"],
+    color:"white",
+    rarity:"uncommon",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/ajanispridemate.jpg"
+  },
+  {
+    name:"Ajani’s Welcome",
+    cost:["white"],
+    color:"white",
+    rarity:"uncommon",
+    rating: 1,
+    source:"http://mythicspoiler.com/m19/cards/ajaniswelcome.jpg"
+  },
+  {
+    name:"Angel of the Dawn",
+    cost:["white", "colorless", "colorless", "colorless", "colorless"],
+    color:"white",
+    rarity:"common",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/angelofthedawn1.jpg"
+  },
+  {
+    name:"Cavalry Drillmaster",
+    cost:["white", "colorless"],
+    color:"white",
+    rarity:"common",
+    rating: 2.5,
+    source:"http://mythicspoiler.com/m19/cards/cavalrydrillmaster.jpg"
+  },
+  {
+    name:"Cleansing Nova",
+    cost:["white", "white", "colorless", "colorless", "colorless"],
+    color:"white",
+    rarity:"rare",
+    rating: 3.5,
+    source:"http://mythicspoiler.com/m19/cards/cleansingnova.jpg"
+  },
+  {
+    name:"Daybreak Chaplain",
+    cost:["white", "colorless"],
+    color:"white",
+    rarity:"common",
+    rating: 2,
+    source:"http://mythicspoiler.com/m19/cards/daybreakchaplain1.jpg"
+  },
+  {
+    name:"Dwarven Priest",
+    cost:["white", "colorless", "colorless", "colorless"],
+    color:"white",
+    rarity:"common",
+    rating: 2.5,
+    source:"http://mythicspoiler.com/m19/cards/dwarvenpriest1.jpg"
+  },
+  {
+    name:"Gallant Cavalry",
+    cost:["white", "colorless", "colorless", "colorless"],
+    color:"white",
+    rarity:"common",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/gallantcavalry1.jpg"
+  },
+  {
+    name:"Herald of Faith",
+    cost:["white", "white", "colorless", "colorless", "colorless"],
+    color:"white",
+    rarity:"uncommon",
+    rating: 3.5,
+    source:"http://mythicspoiler.com/m19/cards/heraldoffaith.jpg"
+  },
+  {
+    name:"Hieromancer’s Cage",
+    cost:["white", "colorless", "colorless", "colorless"],
+    color:"white",
+    rarity:"uncommon",
+    rating: 3.5,
+    source:"http://mythicspoiler.com/m19/cards/hieromancerscage.jpg"
+  },
+  {
+    name:"Inspired Charge",
+    cost:["white", "white", "colorless", "colorless"],
+    color:"white",
+    rarity:"common",
+    rating: 1,
+    source:"http://mythicspoiler.com/m19/cards/inspiredcharge1.jpg"
+  },
+  {
+    name:"Invoke the Divine",
+    cost:["white", "colorless", "colorless"],
+    color:"white",
+    rarity:"common",
+    rating: 1,
+    source:"http://mythicspoiler.com/m19/cards/invokethedivine1.jpg"
+  },
+  {
+    name:"Isolate",
+    cost:["white"],
+    color:"white",
+    rarity:"rare",
+    rating: 1,
+    source:"http://mythicspoiler.com/m19/cards/isolate.jpg"
+  },
+  {
+    name:"Knight of the Tusk",
+    cost:["white", "white", "colorless", "colorless", "colorless", "colorless"],
+    color:"white",
+    rarity:"commnon",
+    rating: 1.5,
+    source:"http://mythicspoiler.com/m19/cards/knightofthetusk1.jpg"
+  },
+  {
+    name:"Knight’s Pledge",
+    cost:["white", "colorless"],
+    color:"white",
+    rarity:"commnon",
+    rating: 1,
+    source:"http://mythicspoiler.com/m19/cards/knightspledge1.jpg"
+  },
+  {
+    name:"Knightly Valor",
+    cost:["white", "colorless", "colorless", "colorless", "colorless"],
+    color:"white",
+    rarity:"uncommnon",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/knightlyvalor1.jpg"
+  },
+  {
+    name:"Lena, Selfless Champion",
+    cost:["white", "white", "colorless", "colorless", "colorless", "colorless"],
+    color:"white",
+    rarity:"rare",
+    rating: 4.5,
+    source:"http://mythicspoiler.com/m19/cards/lenaselflesschampion.jpg"
+  },
+  {
+    name:"Leonin Vanguard",
+    cost:["white"],
+    color:"white",
+    rarity:"uncommon",
+    rating: 2,
+    source:"http://mythicspoiler.com/m19/cards/leoninvanguard.jpg"
+  },
+  {
+    name:"Leonin Warleader",
+    cost:["white", "white", "colorless", "colorless"],
+    color:"white",
+    rarity:"rare",
+    rating: 4.5,
+    source:"http://mythicspoiler.com/m19/cards/leoninwarleader.jpg"
+  },
+  {
+    name:"Loxodon Line Breaker",
+    cost:["white", "colorless", "colorless"],
+    color:"white",
+    rarity:"common",
+    rating: 1.5,
+    source:"http://mythicspoiler.com/m19/cards/loxodonlinebreaker1.jpg"
+  },
+  {
+    name:"Luminous Bonds",
+    cost:["white", "colorless", "colorless"],
+    color:"white",
+    rarity:"common",
+    rating: 3.5,
+    source:"http://mythicspoiler.com/m19/cards/luminousbonds.jpg"
+  },
+  {
+    name:"Make a Stand",
+    cost:["white", "colorless", "colorless"],
+    color:"white",
+    rarity:"uncommon",
+    rating: 1,
+    source:"http://mythicspoiler.com/m19/cards/makeastand.jpg"
+  },
+  {
+    name:"Mentor of the Meek",
+    cost:["white", "colorless", "colorless"],
+    color:"white",
+    rarity:"rare",
+    rating: 4,
+    source:"http://mythicspoiler.com/m19/cards/mentorofthemeek.jpg"
+  },
+  {
+    name:"Mighty Leap",
+    cost:["white", "colorless"],
+    color:"white",
+    rarity:"common",
+    rating: 1.5,
+    source:"http://mythicspoiler.com/m19/cards/mightyleap1.jpg"
+  },
+  {
+    name:"Militia Bugler",
+    cost:["white", "colorless", "colorless"],
+    color:"white",
+    rarity:"uncommon",
+    rating: 1.5,
+    source:"http://mythicspoiler.com/m19/cards/militiabugler1.jpg"
+  },
+  {
+    name:"Novice Knight",
+    cost:["white"],
+    color:"white",
+    rarity:"uncommon",
+    rating: 2.5,
+    source:"http://mythicspoiler.com/m19/cards/noviceknight1.jpg"
+  },
+  {
+    name:"Oreskos Swiftclaw",
+    cost:["white", "colorless"],
+    color:"white",
+    rarity:"common",
+    rating: 2,
+    source:"http://mythicspoiler.com/m19/cards/oreskosswiftclaw1.jpg"
+  },
+  {
+    name:"Pegasus Courser",
+    cost:["white", "colorless", "colorless"],
+    color:"white",
+    rarity:"common",
+    rating: 3.5,
+    source:"http://mythicspoiler.com/m19/cards/pegasuscourser.jpg"
+  },
+  {
+    name:"Remorseful Cleric",
+    cost:["white", "colorless"],
+    color:"white",
+    rarity:"rare",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/remorsefulcleric.jpg"
+  },
+  {
+    name:"Revitalize",
+    cost:["white", "colorless"],
+    color:"white",
+    rarity:"common",
+    rating: 1.5,
+    source:"http://mythicspoiler.com/m19/cards/revitalize1.jpg"
+  },
+  {
+    name:"Rustwing Falcon",
+    cost:["white"],
+    color:"white",
+    rarity:"common",
+    rating: 1.5,
+    source:"http://mythicspoiler.com/m19/cards/rustwingfalcon1.jpg"
+  },
+  {
+    name:"Star-Crowned Stag",
+    cost:["white", "colorless", "colorless"],
+    color:"white",
+    rarity:"common",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/starcrownedstag.jpg"
+  },
+  {
+    name:"Suncleanser",
+    cost:["white", "colorless"],
+    color:"white",
+    rarity:"rare",
+    rating: 1.5,
+    source:"http://mythicspoiler.com/m19/cards/suncleanser1.jpg"
+  },
+  {
+    name:"Take Vengeance",
+    cost:["white", "colorless"],
+    color:"white",
+    rarity:"common",
+    rating: 2.5,
+    source:"http://mythicspoiler.com/m19/cards/takevengeance.jpg"
+  },
+  {
+    name:"Trusty Packbeast",
+    cost:["white", "colorless", "colorless"],
+    color:"white",
+    rarity:"common",
+    rating: 1.5,
+    source:"http://mythicspoiler.com/m19/cards/trustypackbeast1.jpg"
+  },
+  {
+    name:"Valiant Knight",
+    cost:["white", "colorless", "colorless", "colorless"],
+    color:"white",
+    rarity:"rare",
+    rating: 3.5,
+    source:"http://mythicspoiler.com/m19/cards/valiantknight.jpg"
+  },
+  {
+    name:"Detection Tower",
+    cost:["Null"],
+    color:"colorless",
+    rarity:"rare",
+    rating: 0.5,
+    source:"http://mythicspoiler.com/m19/cards/detectiontower1.jpg"
+  },
+  {
+    name:"Reliquary Tower",
+    cost:["Null"],
+    color:"colorless",
+    rarity:"uncommon",
+    rating: 0,
+    source:"http://mythicspoiler.com/m19/cards/reliquarytower1.jpg"
+  },
+  {
+    name:"Rupture Spire",
+    cost:["Null"],
+    color:"colorless",
+    rarity:"uncommon",
+    rating: 2,
+    source:"http://mythicspoiler.com/m19/cards/rupturespire1.jpg"
+  },
+  {
+    name:"Cinder Barrens",
+    cost:["Null"],
+    color:"colorless",
+    rarity:"lcommon",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/cinderbarrens1.jpg"
+  },
+  {
+    name:"Forsaken Sanctuary",
+    cost:["Null"],
+    color:"colorless",
+    rarity:"lcommon",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/forsakensanctuary1.jpg"
+  },
+  {
+    name:"Foul Orchard",
+    cost:["Null"],
+    color:"colorless",
+    rarity:"lcommon",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/foulorchard1.jpg"
+  },
+  {
+    name:"Highland Lake",
+    cost:["Null"],
+    color:"colorless",
+    rarity:"lcommon",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/highlandlake1.jpg"
+  },
+  {
+    name:"Meandering River",
+    cost:["Null"],
+    color:"colorless",
+    rarity:"lcommon",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/meanderingriver1.jpg"
+  },
+  {
+    name:"Stone Quarry",
+    cost:["Null"],
+    color:"colorless",
+    rarity:"lcommon",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/stonequarry1.jpg"
+  },
+  {
+    name:"Submerged Boneyard",
+    cost:["Null"],
+    color:"colorless",
+    rarity:"lcommon",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/submergedboneyard1.jpg"
+  },
+  {
+    name:"Timber Gorge",
+    cost:["Null"],
+    color:"colorless",
+    rarity:"lcommon",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/timbergorge1.jpg"
+  },
+  {
+    name:"Tranquil Expanse",
+    cost:["Null"],
+    color:"colorless",
+    rarity:"lcommon",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/tranquilexpanse1.jpg"
+  },
+  {
+    name:"Woodland Stream",
+    cost:["Null"],
+    color:"colorless",
+    rarity:"lcommon",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/woodlandstream1.jpg"
+  },
+  {
+    name:"Plains",
+    cost:["Null"],
+    color:"colorless",
+    rarity:"lcommon",
+    rating: 0,
+    source:"http://mythicspoiler.com/m19/cards/plains1.jpg"
+  },
+  {
+    name:"Plains",
+    cost:["Null"],
+    color:"colorless",
+    rarity:"lcommon",
+    rating: 0,
+    source:"http://mythicspoiler.com/m19/cards/plains2.jpg"
+  },
+  {
+    name:"Plains",
+    cost:["Null"],
+    color:"colorless",
+    rarity:"lcommon",
+    rating: 0,
+    source:"http://mythicspoiler.com/m19/cards/plains3.jpg"
+  },
+  {
+    name:"Plains",
+    cost:["Null"],
+    color:"colorless",
+    rarity:"lcommon",
+    rating: 0,
+    source:"http://mythicspoiler.com/m19/cards/plains4.jpg"
+  },
+  {
+    name:"Island",
+    cost:["Null"],
+    color:"colorless",
+    rarity:"lcommon",
+    rating: 0,
+    source:"http://mythicspoiler.com/m19/cards/island1.jpg"
+  },
+  {
+    name:"Island",
+    cost:["Null"],
+    color:"colorless",
+    rarity:"lcommon",
+    rating: 0,
+    source:"http://mythicspoiler.com/m19/cards/island2.jpg"
+  },
+  {
+    name:"Island",
+    cost:["Null"],
+    color:"colorless",
+    rarity:"lcommon",
+    rating: 0,
+    source:"http://mythicspoiler.com/m19/cards/island3.jpg"
+  },
+  {
+    name:"Island",
+    cost:["Null"],
+    color:"colorless",
+    rarity:"lcommon",
+    rating: 0,
+    source:"http://mythicspoiler.com/m19/cards/island4.jpg"
+  },
+  {
+    name:"Swamp",
+    cost:["Null"],
+    color:"colorless",
+    rarity:"lcommon",
+    rating: 0,
+    source:"http://mythicspoiler.com/m19/cards/swamp1.jpg"
+  },
+  {
+    name:"Swamp",
+    cost:["Null"],
+    color:"colorless",
+    rarity:"lcommon",
+    rating: 0,
+    source:"http://mythicspoiler.com/m19/cards/swamp2.jpg"
+  },
+  {
+    name:"Swamp",
+    cost:["Null"],
+    color:"colorless",
+    rarity:"lcommon",
+    rating: 0,
+    source:"http://mythicspoiler.com/m19/cards/swamp3.jpg"
+  },
+  {
+    name:"Swamp",
+    cost:["Null"],
+    color:"colorless",
+    rarity:"lcommon",
+    rating: 0,
+    source:"http://mythicspoiler.com/m19/cards/swamp4.jpg"
+  },
+  {
+    name:"Mountain",
+    cost:["Null"],
+    color:"colorless",
+    rarity:"lcommon",
+    rating: 0,
+    source:"http://mythicspoiler.com/m19/cards/mountain1.jpg"
+  },
+  {
+    name:"Mountain",
+    cost:["Null"],
+    color:"colorless",
+    rarity:"lcommon",
+    rating: 0,
+    source:"http://mythicspoiler.com/m19/cards/mountain2.jpg"
+  },
+  {
+    name:"Mountain",
+    cost:["Null"],
+    color:"colorless",
+    rarity:"lcommon",
+    rating: 0,
+    source:"http://mythicspoiler.com/m19/cards/mountain3.jpg"
+  },
+  {
+    name:"Mountain",
+    cost:["Null"],
+    color:"colorless",
+    rarity:"lcommon",
+    rating: 0,
+    source:"http://mythicspoiler.com/m19/cards/mountain4.jpg"
+  },
+  {
+    name:"Forest",
+    cost:["Null"],
+    color:"colorless",
+    rarity:"lcommon",
+    rating: 0,
+    source:"http://mythicspoiler.com/m19/cards/forest1.jpg"
+  },
+  {
+    name:"Forest",
+    cost:["Null"],
+    color:"colorless",
+    rarity:"lcommon",
+    rating: 0,
+    source:"http://mythicspoiler.com/m19/cards/forest2.jpg"
+  },
+  {
+    name:"Forest",
+    cost:["Null"],
+    color:"colorless",
+    rarity:"lcommon",
+    rating: 0,
+    source:"http://mythicspoiler.com/m19/cards/forest3.jpg"
+  },
+  {
+    name:"Forest",
+    cost:["Null"],
+    color:"colorless",
+    rarity:"lcommon",
+    rating: 0,
+    source:"http://mythicspoiler.com/m19/cards/forest4.jpg"
   },
 ]

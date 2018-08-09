@@ -61,7 +61,7 @@ var arrayCommon = arrayTest.filter(carta => carta.rarity == "common")
 var max = arrayCommon.length
 var x = Math.floor((Math.random() * max)); // randomizando o que vai gerar a primeira carta
 booster.push(arrayCommon[x]) // Gerando a primeira carta incomum, que é o item 1 do booster
-while(booster.length != 9){ // Mandando gerar cartas até chegar à 4 cartas no booster
+while(booster.length != 14){ // Mandando gerar cartas até chegar à 4 cartas no booster
   max = arrayCommon.length
   x = Math.floor((Math.random() * max)); // randomizando as próximas cartas
   while(booster.find(carta => carta.name == arrayCommon[x].name)){ //compara
@@ -95,6 +95,41 @@ var imgC9 = $("<img>").attr({
   "src" : booster[8].source
   });
   $("#createBoosterDiv").append(imgC9);
+  //card 10 Common
+var imgC10 = $("<img>").attr({
+  "src" : booster[9].source
+  });
+  $("#createBoosterDiv").append(imgC10);
+  //card 11 Common
+var imgC11 = $("<img>").attr({
+  "src" : booster[10].source
+  });
+  $("#createBoosterDiv").append(imgC11);
+  //card 12 Common
+var imgC12 = $("<img>").attr({
+  "src" : booster[11].source
+  });
+  $("#createBoosterDiv").append(imgC12);
+  //card 13 Common
+var imgC13 = $("<img>").attr({
+  "src" : booster[12].source
+  });
+  $("#createBoosterDiv").append(imgC13);
+  //card 14 Common
+var imgC14 = $("<img>").attr({
+  "src" : booster[13].source
+  });
+  $("#createBoosterDiv").append(imgC14);
+//array com todas as land comuns
+  var arrayLands = arrayTest.filter(carta => carta.rarity == "lcommon")
+  var max = arrayLands.length
+  var x = Math.floor((Math.random() * max));
+  booster.push(arrayLands[x])
+  //card 15 Land Common
+var imgC15 = $("<img>").attr({
+    "src" : booster[14].source
+    });
+    $("#createBoosterDiv").append(imgC15);
   //Final de Generate Booster
 })
 
