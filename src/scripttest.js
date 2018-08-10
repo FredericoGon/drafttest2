@@ -2307,6 +2307,638 @@ var arrayTest = [
     source:"http://mythicspoiler.com/m19/cards/windreadersphinx.jpg"
   },
   {
+    name:"Abnormal Endurance",
+    cost:["black", "colorless"],
+    color:"black",
+    rarity:"common",
+    rating: 1.5,
+    source:"http://mythicspoiler.com/m19/cards/abnormalendurance.jpg"
+  },
+  {
+    name:"Blood Divination",
+    cost:["black", "colorless", "colorless", "colorless"],
+    color:"black",
+    rarity:"uncommon",
+    rating: 1,
+    source:"http://mythicspoiler.com/m19/cards/blooddivination.jpg"
+  },
+  {
+    name:"Bone Dragon",
+    cost:["black", "black", "colorless", "colorless", "colorless"],
+    color:"black",
+    rarity:"rare",
+    rating: 4.5,
+    source:"http://mythicspoiler.com/m19/cards/bonedragon.jpg"
+  },
+  {
+    name:"Child of Night",
+    cost:["black", "colorless"],
+    color:"black",
+    rarity:"common",
+    rating: 2.5,
+    source:"http://mythicspoiler.com/m19/cards/childofnight1.jpg"
+  },
+  {
+    name:"Death Baron",
+    cost:["black", "black", "colorless"],
+    color:"black",
+    rarity:"rare",
+    rating: 2.5,
+    source:"http://mythicspoiler.com/m19/cards/deathbaron1.jpg"
+  },
+  {
+    name:"Demon of Catastrophes",
+    cost:["black", "black", "colorless", "colorless"],
+    color:"black",
+    rarity:"rare",
+    rating: 3.5,
+    source:"http://mythicspoiler.com/m19/cards/demonofcatastrophes1.jpg"
+  },
+  {
+    name:"Diregraf Ghoul",
+    cost:["black"],
+    color:"black",
+    rarity:"uncommon",
+    rating: 2.5,
+    source:"http://mythicspoiler.com/m19/cards/diregrafghoul.jpg"
+  },
+  {
+    name:"Doomed Dissenter",
+    cost:["black", "colorless"],
+    color:"black",
+    rarity:"common",
+    rating: 2.5,
+    source:"http://mythicspoiler.com/m19/cards/doomeddissenter.jpg"
+  },
+  {
+    name:"Duress",
+    cost:["black"],
+    color:"black",
+    rarity:"common",
+    rating: 0.5,
+    source:"http://mythicspoiler.com/m19/cards/duress.jpg"
+  },
+  {
+    name:"Epicure of Blood",
+    cost:["black", "colorless", "colorless", "colorless", "colorless"],
+    color:"black",
+    rarity:"common",
+    rating: 2,
+    source:"http://mythicspoiler.com/m19/cards/epicureofblood1.jpg"
+  },
+  {
+    name:"Fell Specter",
+    cost:["black", "colorless", "colorless", "colorless"],
+    color:"black",
+    rarity:"uncommon",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/fellspecter.jpg"
+  },
+  {
+    name:"Fraying Omnipotence",
+    cost:["black", "black", "colorless", "colorless", "colorless"],
+    color:"black",
+    rarity:"rare",
+    rating: 0,
+    source:"http://mythicspoiler.com/m19/cards/frayingomnipotence.jpg"
+  },
+  {
+    name:"Gravedigger",
+    cost:["black", "colorless", "colorless", "colorless"],
+    color:"black",
+    rarity:"uncommon",
+    rating: 3.5,
+    source:"http://mythicspoiler.com/m19/cards/gravedigger.jpg"
+  },
+  {
+    name:"Graveyard Marshal",
+    cost:["black", "black"],
+    color:"black",
+    rarity:"rare",
+    rating: 4,
+    source:"http://mythicspoiler.com/m19/cards/graveyardmarshal1.jpg"
+  },
+  {
+    name:"Hired Blade",
+    cost:["black", "colorless", "colorless"],
+    color:"black",
+    rarity:"common",
+    rating: 2,
+    source:"http://mythicspoiler.com/m19/cards/hiredblade.jpg"
+  },
+  {
+    name:"Infectious Horror",
+    cost:["black", "colorless", "colorless", "colorless"],
+    color:"black",
+    rarity:"common",
+    rating: 1,
+    source:"http://mythicspoiler.com/m19/cards/infectioushorror.jpg"
+  },
+  {
+    name:"Infernal Reckoning",
+    cost:["black"],
+    color:"black",
+    rarity:"rare",
+    rating: 0,
+    source:"http://mythicspoiler.com/m19/cards/infernalreckoning.jpg"
+  },
+  {
+    name:"Infernal Scarring",
+    cost:["black", "colorless"],
+    color:"black",
+    rarity:"common",
+    rating: 1,
+    source:"http://mythicspoiler.com/m19/cards/infernalscarring.jpg"
+  },
+  {
+    name:"Isareth the Awakener",
+    cost:["black", "black", "colorless"],
+    color:"black",
+    rarity:"rare",
+    rating: 4,
+    source:"http://mythicspoiler.com/m19/cards/isareththeawakener1.jpg"
+  },
+  {
+    name:"Lich’s Caress",
+    cost:["black", "black", "colorless", "colorless", "colorless"],
+    color:"black",
+    rarity:"common",
+    rating: 3.5,
+    source:"http://mythicspoiler.com/m19/cards/lichscaress.jpg"
+  },
+  {
+    name:"Liliana’s Contract",
+    cost:["black", "black", "colorless", "colorless", "colorless"],
+    color:"black",
+    rarity:"rare",
+    rating: 2.5,
+    source:"http://mythicspoiler.com/m19/cards/lilianascontract1.jpg"
+  },
+  {
+    name:"Macabre Waltz",
+    cost:["black", "colorless"],
+    color:"black",
+    rarity:"common",
+    rating: 2.5,
+    source:"http://mythicspoiler.com/m19/cards/macabrewaltz.jpg"
+  },
+  {
+    name:"Mind Rot",
+    cost:["black", "colorless", "colorless"],
+    color:"black",
+    rarity:"common",
+    rating: 2,
+    source:"http://mythicspoiler.com/m19/cards/mindrot.jpg"
+  },
+  {
+    name:"Murder",
+    cost:["black", "black", "colorless"],
+    color:"black",
+    rarity:"uncommon",
+    rating: 4,
+    source:"http://mythicspoiler.com/m19/cards/murder1.jpg"
+  },
+  {
+    name:"Nightmare’s Thirst",
+    cost:["black"],
+    color:"black",
+    rarity:"uncommon",
+    rating: 1.5,
+    source:"http://mythicspoiler.com/m19/cards/nightmaresthirst1.jpg"
+  },
+  {
+    name:"Open the Graves",
+    cost:["black", "black", "colorless", "colorless", "colorless"],
+    color:"black",
+    rarity:"rare",
+    rating: 3.5,
+    source:"http://mythicspoiler.com/m19/cards/openthegraves.jpg"
+  },
+  {
+    name:"Phylactery Lich",
+    cost:["black", "black", "black"],
+    color:"black",
+    rarity:"rare",
+    rating: 1,
+    source:"http://mythicspoiler.com/m19/cards/phylacterylich1.jpg"
+  },
+  {
+    name:"Ravenous Harpy",
+    cost:["black", "colorless", "colorless"],
+    color:"black",
+    rarity:"uncommon",
+    rating: 1.5,
+    source:"http://mythicspoiler.com/m19/cards/ravenousharpy1.jpg"
+  },
+  {
+    name:"Reassembling Skeleton",
+    cost:["black", "colorless"],
+    color:"black",
+    rarity:"uncommon",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/reassemblingskeleton.jpg"
+  },
+  {
+    name:"Rise from the Grave",
+    cost:["black", "colorless", "colorless", "colorless", "colorless"],
+    color:"black",
+    rarity:"uncommon",
+    rating: 2,
+    source:"http://mythicspoiler.com/m19/cards/risefromthegrave.jpg"
+  },
+  {
+    name:"Skeleton Archer",
+    cost:["black", "colorless", "colorless", "colorless"],
+    color:"black",
+    rarity:"common",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/skeletonarcher.jpg"
+  },
+  {
+    name:"Skymarch Bloodletter",
+    cost:["black", "colorless", "colorless"],
+    color:"black",
+    rarity:"common",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/skymarchbloodletter.jpg"
+  },
+  {
+    name:"Sovereign’s Bite",
+    cost:["black", "colorless"],
+    color:"black",
+    rarity:"common",
+    rating: 1,
+    source:"http://mythicspoiler.com/m19/cards/sovereignsbite1.jpg"
+  },
+  {
+    name:"Stitcher’s Supplier",
+    cost:["black"],
+    color:"black",
+    rarity:"uncommon",
+    rating: 1,
+    source:"http://mythicspoiler.com/m19/cards/stitcherssupplier1.jpg"
+  },
+  {
+    name:"Strangling Spores",
+    cost:["black", "colorless", "colorless", "colorless"],
+    color:"black",
+    rarity:"common",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/stranglingspores.jpg"
+  },
+  {
+    name:"Two-Headed Zombie",
+    cost:["black", "colorless", "colorless", "colorless"],
+    color:"black",
+    rarity:"common",
+    rating: 2.5,
+    source:"http://mythicspoiler.com/m19/cards/twoheadedzombie1.jpg"
+  },
+  {
+    name:"Vampire Neonate",
+    cost:["black"],
+    color:"black",
+    rarity:"common",
+    rating: 1,
+    source:"http://mythicspoiler.com/m19/cards/vampireneonate.jpg"
+  },
+  {
+    name:"Vampire Sovereign",
+    cost:["black", "black", "colorless", "colorless", "colorless"],
+    color:"black",
+    rarity:"uncommon",
+    rating: 3.5,
+    source:"http://mythicspoiler.com/m19/cards/vampiresovereign.jpg"
+  },
+  {
+    name:"Walking Corpse",
+    cost:["black", "colorless"],
+    color:"black",
+    rarity:"common",
+    rating: 2,
+    source:"http://mythicspoiler.com/m19/cards/walkingcorpse.jpg"
+  },
+  {
+    name:"Act of Treason",
+    cost:["red", "colorless", "colorless"],
+    color:"red",
+    rarity:"common",
+    rating: 1,
+    source:"http://mythicspoiler.com/m19/cards/actoftreason1.jpg"
+  },
+  {
+    name:"Alpine Moon",
+    cost:["red"],
+    color:"red",
+    rarity:"rare",
+    rating: 0,
+    source:"http://mythicspoiler.com/m19/cards/alpinemoon1.jpg"
+  },
+  {
+    name:"Apex of Power",
+    cost:["red", "red","red", "colorless", "colorless", "colorless", "colorless", "colorless", "colorless", "colorless"],
+    color:"red",
+    rarity:"rare",
+    rating: 0,
+    source:"http://mythicspoiler.com/m19/cards/apexofpower1.jpg"
+  },
+  {
+    name:"Banefire",
+    cost:["red"],
+    color:"red",
+    rarity:"rare",
+    rating: 4,
+    source:"http://mythicspoiler.com/m19/cards/banefire1.jpg"
+  },
+  {
+    name:"Boggart Brute",
+    cost:["red", "colorless", "colorless"],
+    color:"red",
+    rarity:"common",
+    rating: 2.5,
+    source:"http://mythicspoiler.com/m19/cards/boggartbrute.jpg"
+  },
+  {
+    name:"Catalyst Elemental",
+    cost:["red", "colorless", "colorless"],
+    color:"red",
+    rarity:"common",
+    rating: 1,
+    source:"http://mythicspoiler.com/m19/cards/catalystelemental1.jpg"
+  },
+  {
+    name:"Crash Through",
+    cost:["red"],
+    color:"red",
+    rarity:"common",
+    rating: 1,
+    source:"http://mythicspoiler.com/m19/cards/crashthrough.jpg"
+  },
+  {
+    name:"Dark-Dweller Oracle",
+    cost:["red", "colorless"],
+    color:"red",
+    rarity:"rare",
+    rating: 3.5,
+    source:"http://mythicspoiler.com/m19/cards/darkdwelleroracle.jpg"
+  },
+  {
+    name:"Demanding Dragon",
+    cost:["red", "red", "colorless", "colorless", "colorless"],
+    color:"red",
+    rarity:"rare",
+    rating: 4.5,
+    source:"http://mythicspoiler.com/m19/cards/demandingdragon.jpg"
+  },
+  {
+    name:"Dismissive Pyromancer",
+    cost:["red", "colorless"],
+    color:"red",
+    rarity:"rare",
+    rating: 3.5,
+    source:"http://mythicspoiler.com/m19/cards/dismissivepyromancer.jpg"
+  },
+  {
+    name:"Doublecast",
+    cost:["red", "red"],
+    color:"red",
+    rarity:"uncommon",
+    rating: 1,
+    source:"http://mythicspoiler.com/m19/cards/doublecast1.jpg"
+  },
+  {
+    name:"Dragon Egg",
+    cost:["red", "colorless", "colorless"],
+    color:"red",
+    rarity:"uncommon",
+    rating: 1.5,
+    source:"http://mythicspoiler.com/m19/cards/dragonegg.jpg"
+  },
+  {
+    name:"Electrify",
+    cost:["red", "colorless", "colorless", "colorless"],
+    color:"red",
+    rarity:"common",
+    rating: 3.5,
+    source:"http://mythicspoiler.com/m19/cards/electrify.jpg"
+  },
+  {
+    name:"Fiery Finish",
+    cost:["red", "red", "colorless", "colorless", "colorless", "colorless"],
+    color:"red",
+    rarity:"uncommon",
+    rating: 2,
+    source:"http://mythicspoiler.com/m19/cards/fieryfinish.jpg"
+  },
+  {
+    name:"Fire Elemental",
+    cost:["red", "red", "colorless", "colorless", "colorless"],
+    color:"red",
+    rarity:"common",
+    rating: 1.5,
+    source:"http://mythicspoiler.com/m19/cards/fireelemental1.jpg"
+  },
+  {
+    name:"Goblin Instigator",
+    cost:["red", "colorless"],
+    color:"red",
+    rarity:"common",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/goblininstigator1.jpg"
+  },
+  {
+    name:"Goblin Motivator",
+    cost:["red"],
+    color:"red",
+    rarity:"common",
+    rating: 1,
+    source:"http://mythicspoiler.com/m19/cards/goblinmotivator1.jpg"
+  },
+  {
+    name:"Goblin Trashmaster",
+    cost:["red", "red", "colorless", "colorless"],
+    color:"red",
+    rarity:"rare",
+    rating: 2,
+    source:"http://mythicspoiler.com/m19/cards/goblintrashmaster.jpg"
+  },
+  {
+    name:"Guttersnipe",
+    cost:["red", "colorless", "colorless"],
+    color:"red",
+    rarity:"uncommon",
+    rating: 1,
+    source:"http://mythicspoiler.com/m19/cards/guttersnipe1.jpg"
+  },
+  {
+    name:"Havoc Devils",
+    cost:["red", "red", "colorless", "colorless"],
+    color:"red",
+    rarity:"common",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/havocdevils1.jpg"
+  },
+  {
+    name:"Hostile Minotaur",
+    cost:["red", "colorless", "colorless", "colorless"],
+    color:"red",
+    rarity:"common",
+    rating: 2.5,
+    source:"http://mythicspoiler.com/m19/cards/hostileminotaur1.jpg"
+  },
+  {
+    name:"Inferno Hellion",
+    cost:["red", "colorless", "colorless", "colorless"],
+    color:"red",
+    rarity:"uncommon",
+    rating: 2,
+    source:"http://mythicspoiler.com/m19/cards/infernohellion.jpg"
+  },
+  {
+    name:"Lathliss, Dragon Queen",
+    cost:["red", "red", "colorless", "colorless", "colorless", "colorless"],
+    color:"red",
+    rarity:"rare",
+    rating: 4,
+    source:"http://mythicspoiler.com/m19/cards/lathlissdragonqueen1.jpg"
+  },
+  {
+    name:"Lava Axe",
+    cost:["red", "colorless", "colorless", "colorless", "colorless"],
+    color:"red",
+    rarity:"common",
+    rating: 1,
+    source:"http://mythicspoiler.com/m19/cards/lavaaxe1.jpg"
+  },
+  {
+    name:"Lightning Strike",
+    cost:["red", "colorless"],
+    color:"red",
+    rarity:"uncommon",
+    rating: 3.5,
+    source:"http://mythicspoiler.com/m19/cards/lightningstrike.jpg"
+  },
+  {
+    name:"Onnake Ogre",
+    cost:["red", "colorless", "colorless"],
+    color:"red",
+    rarity:"common",
+    rating: 1.5,
+    source:"http://mythicspoiler.com/m19/cards/onakkeogre1.jpg"
+  },
+  {
+    name:"Sarkhan’s Unsealing",
+    cost:["red", "colorless", "colorless", "colorless"],
+    color:"red",
+    rarity:"rare",
+    rating: 1,
+    source:"http://mythicspoiler.com/m19/cards/sarkhansunsealing.jpg"
+  },
+  {
+    name:"Shock",
+    cost:["red"],
+    color:"red",
+    rarity:"common",
+    rating: 3.5,
+    source:"http://mythicspoiler.com/m19/cards/shock.jpg"
+  },
+  {
+    name:"Siegebreaker Giant",
+    cost:["red", "red", "colorless", "colorless", "colorless"],
+    color:"red",
+    rarity:"uncommon",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/siegebreakergiant.jpg"
+  },
+  {
+    name:"Smelt",
+    cost:["red"],
+    color:"red",
+    rarity:"common",
+    rating: 0.5,
+    source:"http://mythicspoiler.com/m19/cards/smelt1.jpg"
+  },
+  {
+    name:"Sparktongue Dragon",
+    cost:["red", "red", "colorless", "colorless", "colorless"],
+    color:"red",
+    rarity:"common",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/sparktonguedragon.jpg"
+  },
+  {
+    name:"Spit Flame",
+    cost:["red", "colorless", "colorless"],
+    color:"red",
+    rarity:"rare",
+    rating: 3.5,
+    source:"http://mythicspoiler.com/m19/cards/spitflame.jpg"
+  },
+  {
+    name:"Sure Strike",
+    cost:["red", "colorless"],
+    color:"red",
+    rarity:"common",
+    rating: 1.5,
+    source:"http://mythicspoiler.com/m19/cards/surestrike1.jpg"
+  },
+  {
+    name:"Tectonic Rift",
+    cost:["red", "colorless", "colorless", "colorless"],
+    color:"red",
+    rarity:"uncommon",
+    rating: 1,
+    source:"http://mythicspoiler.com/m19/cards/tectonicrift.jpg"
+  },
+  {
+    name:"Thud",
+    cost:["red"],
+    color:"red",
+    rarity:"uncommon",
+    rating: 1.5,
+    source:"http://mythicspoiler.com/m19/cards/thud.jpg"
+  },
+  {
+    name:"Tormenting Voice",
+    cost:["red","colorless"],
+    color:"red",
+    rarity:"common",
+    rating: 1.5,
+    source:"http://mythicspoiler.com/m19/cards/tormentingvoice1.jpg"
+  },
+  {
+    name:"Trumpet Blast",
+    cost:["red","colorless", "colorless"],
+    color:"red",
+    rarity:"common",
+    rating: 1,
+    source:"http://mythicspoiler.com/m19/cards/trumpetblast1.jpg"
+  },
+  {
+    name:"Viashino Pyromancer",
+    cost:["red", "colorless"],
+    color:"red",
+    rarity:"common",
+    rating: 1.5,
+    source:"http://mythicspoiler.com/m19/cards/viashinopyromancer.jpg"
+  },
+  {
+    name:"Volcanic Dragon",
+    cost:["red","red", "colorless", "colorless", "colorless", "colorless"],
+    color:"red",
+    rarity:"uncommon",
+    rating: 3.5,
+    source:"http://mythicspoiler.com/m19/cards/volcanicdragon.jpg"
+  },
+  {
+    name:"Volley Veteran",
+    cost:["red", "colorless", "colorless", "colorless"],
+    color:"red",
+    rarity:"uncommon",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/volleyveteran.jpg"
+  },
+  {
     name:"Detection Tower",
     cost:["Null"],
     color:"colorless",
