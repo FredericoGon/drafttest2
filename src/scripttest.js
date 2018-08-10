@@ -2939,6 +2939,622 @@ var arrayTest = [
     source:"http://mythicspoiler.com/m19/cards/volleyveteran.jpg"
   },
   {
+    name:"Blanchwood Armor",
+    cost:["green", "colorless", "colorless"],
+    color:"green",
+    rarity:"uncommon",
+    rating: 1.5,
+    source:"http://mythicspoiler.com/m19/cards/blanchwoodarmor1.jpg"
+  },
+  {
+    name:"Bristling Boar",
+    cost:["green", "colorless", "colorless", "colorless"],
+    color:"green",
+    rarity:"common",
+    rating: 2.5,
+    source:"http://mythicspoiler.com/m19/cards/bristlingboar.jpg"
+  },
+  {
+    name:"Centaur Courser",
+    cost:["green", "colorless", "colorless"],
+    color:"green",
+    rarity:"common",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/centaurcourser.jpg"
+  },
+  {
+    name:"Colossal Dreadmaw",
+    cost:["green", "green", "colorless", "colorless", "colorless", "colorless"],
+    color:"green",
+    rarity:"common",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/colossaldreadmaw.jpg"
+  },
+  {
+    name:"Colossal Majesty",
+    cost:["green", "colorless", "colorless"],
+    color:"green",
+    rarity:"uncommon",
+    rating: 1.5,
+    source:"http://mythicspoiler.com/m19/cards/colossalmajesty.jpg"
+  },
+  {
+    name:"Daggerback Basilisk",
+    cost:["green", "colorless", "colorless"],
+    color:"green",
+    rarity:"common",
+    rating: 2,
+    source:"http://mythicspoiler.com/m19/cards/daggerbackbasilisk.jpg"
+  },
+  {
+    name:"Declare Dominance",
+    cost:["green", "green", "colorless", "colorless", "colorless"],
+    color:"green",
+    rarity:"uncommon",
+    rating: 3.5,
+    source:"http://mythicspoiler.com/m19/cards/declaredominance.jpg"
+  },
+  {
+    name:"Druid of Horns",
+    cost:["green", "colorless", "colorless", "colorless"],
+    color:"green",
+    rarity:"uncommon",
+    rating: 1,
+    source:"http://mythicspoiler.com/m19/cards/druidofhorns1.jpg"
+  },
+  {
+    name:"Druid of the Cowl",
+    cost:["green", "colorless"],
+    color:"green",
+    rarity:"common",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/druidofthecowl.jpg"
+  },
+  {
+    name:"Dryad Greenseeker",
+    cost:["green", "colorless"],
+    color:"green",
+    rarity:"uncommon",
+    rating: 3.5,
+    source:"http://mythicspoiler.com/m19/cards/dryadgreenseeker.jpg"
+  },
+  {
+    name:"Elvish Clancaller",
+    cost:["green", "green"],
+    color:"green",
+    rarity:"rare",
+    rating: 1,
+    source:"http://mythicspoiler.com/m19/cards/elvishclancaller.jpg"
+  },
+  {
+    name:"Elvish Rejuvenator",
+    cost:["green", "colorless", "colorless"],
+    color:"green",
+    rarity:"common",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/elvishrejuvenator1.jpg"
+  },
+  {
+    name:"Ghastbark Twins",
+    cost:["green", "green", "colorless", "colorless", "colorless", "colorless", "colorless"],
+    color:"green",
+    rarity:"uncommon",
+    rating: 2,
+    source:"http://mythicspoiler.com/m19/cards/ghastbarktwins.jpg"
+  },
+  {
+    name:"Ghirapur Guide",
+    cost:["green", "colorless", "colorless"],
+    color:"green",
+    rarity:"uncommon",
+    rating: 2,
+    source:"http://mythicspoiler.com/m19/cards/ghirapurguide.jpg"
+  },
+  {
+    name:"Giant Spider",
+    cost:["green", "colorless", "colorless", "colorless"],
+    color:"green",
+    rarity:"common",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/giantspider.jpg"
+  },
+  {
+    name:"Gift of Paradise",
+    cost:["green", "colorless", "colorless"],
+    color:"green",
+    rarity:"uncommon",
+    rating: 1.5,
+    source:"http://mythicspoiler.com/m19/cards/giftofparadise.jpg"
+  },
+  {
+    name:"Gigantosaurus",
+    cost:["green", "green", "green", "green", "green"],
+    color:"green",
+    rarity:"rare",
+    rating: 0,
+    source:"http://mythicspoiler.com/m19/cards/gigantosaurus.jpg"
+  },
+  {
+    name:"Goreclaw, Terror of Qal Sisma",
+    cost:["green", "colorless", "colorless", "colorless"],
+    color:"green",
+    rarity:"rare",
+    rating: 4,
+    source:"http://mythicspoiler.com/m19/cards/goreclawterrorofqalsisma1.jpg"
+  },
+  {
+    name:"Greenwood Sentinel",
+    cost:["green", "colorless"],
+    color:"green",
+    rarity:"common",
+    rating: 2,
+    source:"http://mythicspoiler.com/m19/cards/greenwoodsentinel.jpg"
+  },
+  {
+    name:"Highland Game",
+    cost:["green", "colorless"],
+    color:"green",
+    rarity:"common",
+    rating: 1,
+    source:"http://mythicspoiler.com/m19/cards/highlandgame.jpg"
+  },
+  {
+    name:"Hungering Hydra",
+    cost:["green"],
+    color:"green",
+    rarity:"rare",
+    rating: 4,
+    source:"http://mythicspoiler.com/m19/cards/hungeringhydra.jpg"
+  },
+  {
+    name:"Naturalize",
+    cost:["green", "colorless"],
+    color:"green",
+    rarity:"common",
+    rating: 0.5,
+    source:"http://mythicspoiler.com/m19/cards/naturalize.jpg"
+  },
+  {
+    name:"Oakenform",
+    cost:["green", "colorless", "colorless"],
+    color:"green",
+    rarity:"common",
+    rating: 1,
+    source:"http://mythicspoiler.com/m19/cards/oakenform.jpg"
+  },
+  {
+    name:"Pelakka Wurm",
+    cost:["green", "green", "green", "colorless", "colorless", "colorless", "colorless"],
+    color:"green",
+    rarity:"rare",
+    rating: 4.5,
+    source:"http://mythicspoiler.com/m19/cards/pelakkawurm1.jpg"
+  },
+  {
+    name:"Plummet",
+    cost:["green", "colorless"],
+    color:"green",
+    rarity:"common",
+    rating: 0.5,
+    source:"http://mythicspoiler.com/m19/cards/plummet.jpg"
+  },
+  {
+    name:"Prodigious Growth",
+    cost:["green", "green", "colorless", "colorless", "colorless", "colorless"],
+    color:"green",
+    rarity:"rare",
+    rating: 4,
+    source:"http://mythicspoiler.com/m19/cards/prodigiousgrowth1.jpg"
+  },
+  {
+    name:"Rabid Bite",
+    cost:["green", "colorless"],
+    color:"green",
+    rarity:"common",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/rabidbite.jpg"
+  },
+  {
+    name:"Reclamation Sage",
+    cost:["green", "colorless", "colorless"],
+    color:"green",
+    rarity:"uncommon",
+    rating: 3.5,
+    source:"http://mythicspoiler.com/m19/cards/reclamationsage.jpg"
+  },
+  {
+    name:"Recollect",
+    cost:["green", "colorless", "colorless"],
+    color:"green",
+    rarity:"uncommon",
+    rating: 0.5,
+    source:"http://mythicspoiler.com/m19/cards/recollect.jpg"
+  },
+  {
+    name:"Rhox Oracle",
+    cost:["green", "colorless", "colorless", "colorless", "colorless"],
+    color:"green",
+    rarity:"common",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/rhoxoracle1.jpg"
+  },
+  {
+    name:"Root Snare",
+    cost:["green", "colorless"],
+    color:"green",
+    rarity:"common",
+    rating: 0.5,
+    source:"http://mythicspoiler.com/m19/cards/rootsnare1.jpg"
+  },
+  {
+    name:"Runic Armasaur",
+    cost:["green", "green", "colorless"],
+    color:"green",
+    rarity:"rare",
+    rating: 3.5,
+    source:"http://mythicspoiler.com/m19/cards/runicarmasaur1.jpg"
+  },
+  {
+    name:"Scapeshift",
+    cost:["green", "green", "colorless", "colorless"],
+    color:"green",
+    rarity:"rare",
+    rating: 0,
+    source:"http://mythicspoiler.com/m19/cards/scapeshift.jpg"
+  },
+  {
+    name:"Talons of Wildwood",
+    cost:["green", "colorless"],
+    color:"green",
+    rarity:"common",
+    rating: 1,
+    source:"http://mythicspoiler.com/m19/cards/talonsofwildwood.jpg"
+  },
+  {
+    name:"Thorn Lieutenant",
+    cost:["green", "colorless"],
+    color:"green",
+    rarity:"rare",
+    rating: 3.5,
+    source:"http://mythicspoiler.com/m19/cards/thornlieutenant1.jpg"
+  },
+  {
+    name:"Thornhide Wolves",
+    cost:["green", "colorless", "colorless",  "colorless",  "colorless"],
+    color:"green",
+    rarity:"common",
+    rating: 2,
+    source:"http://mythicspoiler.com/m19/cards/thornhidewolves.jpg"
+  },
+  {
+    name:"Titanic Growth",
+    cost:["green", "colorless"],
+    color:"green",
+    rarity:"common",
+    rating: 2,
+    source:"http://mythicspoiler.com/m19/cards/titanicgrowth.jpg"
+  },
+  {
+    name:"Vigilant Baloth",
+    cost:["green", "green", "colorless", "colorless", "colorless"],
+    color:"green",
+    rarity:"uncommon",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/vigilantbaloth.jpg"
+  },
+  {
+    name:"Vivien’s Invocation",
+    cost:["green", "green", "colorless", "colorless", "colorless", "colorless", "colorless"],
+    color:"green",
+    rarity:"rare",
+    rating: 1.5,
+    source:"http://mythicspoiler.com/m19/cards/viviensinvocation.jpg"
+  },
+  {
+    name:"Wall of Vines",
+    cost:["green"],
+    color:"green",
+    rarity:"common",
+    rating: 0.5,
+    source:"http://mythicspoiler.com/m19/cards/wallofvines.jpg"
+  },
+  {
+    name:"Aerial Engineer",
+    cost:["blue", "white", "colorless", "colorless"],
+    color:"gold",
+    rarity:"uncommon",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/aerialengineer.jpg"
+  },
+  {
+    name:"Arcades, the Strategist",
+    cost:["blue", "white", "green", "colorless"],
+    color:"gold",
+    rarity:"rare",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/arcadesthestrategist1.jpg"
+  },
+  {
+    name:"Brawl-Bash Ogre",
+    cost:["red", "black", "colorless", "colorless"],
+    color:"gold",
+    rarity:"uncommon",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/brawlbashogre.jpg"
+  },
+  {
+    name:"Chromium, the Mutable",
+    cost:["black", "blue", "white", "colorless", "colorless", "colorless", "colorless"],
+    color:"gold",
+    rarity:"rare",
+    rating: 4.5,
+    source:"http://mythicspoiler.com/m19/cards/chromiumthemutable.jpg"
+  },
+  {
+    name:"Draconic Disciple",
+    cost:["green", "red", "colorless"],
+    color:"gold",
+    rarity:"uncommon",
+    rating: 3.5,
+    source:"http://mythicspoiler.com/m19/cards/draconicdisciple.jpg"
+  },
+  {
+    name:"Enigma Drake",
+    cost:["blue", "red", "colorless"],
+    color:"gold",
+    rarity:"uncommon",
+    rating: 2,
+    source:"http://mythicspoiler.com/m19/cards/enigmadrake1.jpg"
+  },
+  {
+    name:"Heroic Reinforcements",
+    cost:["white", "red", "colorless", "colorless"],
+    color:"gold",
+    rarity:"uncommon",
+    rating: 3.5,
+    source:"http://mythicspoiler.com/m19/cards/heroicreinforcements1.jpg"
+  },
+  {
+    name:"Nicol Bolas, the Ravager",
+    cost:["red", "black", "blue", "colorless"],
+    color:"gold",
+    rarity:"rare",
+    rating: 4.5,
+    source:"http://mythicspoiler.com/m19/cards/nicolbolastheravager1.jpg"
+  },
+  {
+    name:"Palladia-Mors, the Ruiner",
+    cost:["white", "green", "red", "colorless", "colorless", "colorless"],
+    color:"gold",
+    rarity:"rare",
+    rating: 4.5,
+    source:"http://mythicspoiler.com/m19/cards/palladiamorstheruiner.jpg"
+  },
+  {
+    name:"Poison Tip Archer",
+    cost:["green", "black", "colorless", "colorless"],
+    color:"gold",
+    rarity:"uncommon",
+    rating: 4,
+    source:"http://mythicspoiler.com/m19/cards/poisontiparcher.jpg"
+  },
+  {
+    name:"Psychic Symbiont",
+    cost:["black", "blue", "colorless", "colorless", "colorless", "colorless"],
+    color:"gold",
+    rarity:"uncommon",
+    rating: 4,
+    source:"http://mythicspoiler.com/m19/cards/psychicsymbiont.jpg"
+  },
+  {
+    name:"Regal Bloodlord",
+    cost:["black", "white", "colorless", "colorless", "colorless"],
+    color:"gold",
+    rarity:"uncommon",
+    rating: 3.5,
+    source:"http://mythicspoiler.com/m19/cards/regalbloodlord.jpg"
+  },
+  {
+    name:"Satyr Enchanter",
+    cost:["white", "green", "colorless"],
+    color:"gold",
+    rarity:"uncommon",
+    rating: 1,
+    source:"http://mythicspoiler.com/m19/cards/satyrenchanter.jpg"
+  },
+  {
+    name:"Skyrider Patrol",
+    cost:["blue", "green", "colorless", "colorless"],
+    color:"gold",
+    rarity:"uncommon",
+    rating: 4,
+    source:"http://mythicspoiler.com/m19/cards/skyriderpatrol.jpg"
+  },
+  {
+    name:"Vaevictis Asmati, the Dire",
+    cost:["green", "red", "black", "colorless", "colorless", "colorless"],
+    color:"gold",
+    rarity:"rare",
+    rating: 4.5,
+    source:"http://mythicspoiler.com/m19/cards/vaevictisasmadithedire1.jpg"
+  },
+  {
+    name:"Amulet of Safekeeping",
+    cost:["colorless", "colorless"],
+    color:"colorless",
+    rarity:"rare",
+    rating: 0.5,
+    source:"http://mythicspoiler.com/m19/cards/amuletofsafekeeping.jpg"
+  },
+  {
+    name:"Arcane Encyclopedia",
+    cost:["colorless", "colorless", "colorless"],
+    color:"colorless",
+    rarity:"uncommon",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/arcaneencyclopedia1.jpg"
+  },
+  {
+    name:"Chaos Wand",
+    cost:["colorless", "colorless", "colorless"],
+    color:"colorless",
+    rarity:"rare",
+    rating: 2.5,
+    source:"http://mythicspoiler.com/m19/cards/chaoswand.jpg"
+  },
+  {
+    name:"Crucible of Worlds",
+    cost:["colorless", "colorless", "colorless"],
+    color:"colorless",
+    rarity:"rare",
+    rating: 0,
+    source:"http://mythicspoiler.com/m19/cards/crucibleofworlds.jpg"
+  },
+  {
+    name:"Desecrated Tomb",
+    cost:["colorless", "colorless", "colorless"],
+    color:"colorless",
+    rarity:"rare",
+    rating: 0,
+    source:"http://mythicspoiler.com/m19/cards/desecratedtomb1.jpg"
+  },
+  {
+    name:"Diamond Mare",
+    cost:["colorless", "colorless"],
+    color:"colorless",
+    rarity:"uncommon",
+    rating: 0.5,
+    source:"http://mythicspoiler.com/m19/cards/diamondmare.jpg"
+  },
+  {
+    name:"Dragon’s Hoard",
+    cost:["colorless", "colorless", "colorless"],
+    color:"colorless",
+    rarity:"rare",
+    rating: 2.5,
+    source:"http://mythicspoiler.com/m19/cards/dragonshoard.jpg"
+  },
+  {
+    name:"Explosive Apparatus",
+    cost:["colorless"],
+    color:"colorless",
+    rarity:"common",
+    rating: 1.5,
+    source:"http://mythicspoiler.com/m19/cards/explosiveapparatus.jpg"
+  },
+  {
+    name:"Field Creeper",
+    cost:["colorless", "colorless"],
+    color:"colorless",
+    rarity:"common",
+    rating: 1,
+    source:"http://mythicspoiler.com/m19/cards/fieldcreeper.jpg"
+  },
+  {
+    name:"Fountain of Renewal",
+    cost:["colorless"],
+    color:"colorless",
+    rarity:"uncommon",
+    rating: 1.5,
+    source:"http://mythicspoiler.com/m19/cards/fountainofrenewal.jpg"
+  },
+  {
+    name:"Gargoyle Sentinel",
+    cost:["colorless", "colorless", "colorless"],
+    color:"colorless",
+    rarity:"uncommon",
+    rating: 2,
+    source:"http://mythicspoiler.com/m19/cards/gargoylesentinel.jpg"
+  },
+  {
+    name:"Gearsmith Guardian",
+    cost:["colorless", "colorless", "colorless", "colorless", "colorless"],
+    color:"colorless",
+    rarity:"common",
+    rating: 1.5,
+    source:"http://mythicspoiler.com/m19/cards/gearsmithguardian.jpg"
+  },
+  {
+    name:"Magistrate’s Scepter",
+    cost:["colorless", "colorless", "colorless"],
+    color:"colorless",
+    rarity:"rare",
+    rating: 0,
+    source:"http://mythicspoiler.com/m19/cards/magistratesscepter1.jpg"
+  },
+  {
+    name:"Manalith",
+    cost:["colorless", "colorless", "colorless"],
+    color:"colorless",
+    rarity:"common",
+    rating: 2,
+    source:"http://mythicspoiler.com/m19/cards/manalith1.jpg"
+  },
+  {
+    name:"Marauder’s Axe",
+    cost:["colorless", "colorless"],
+    color:"colorless",
+    rarity:"common",
+    rating: 1.5,
+    source:"http://mythicspoiler.com/m19/cards/maraudersaxe2.jpg"
+  },
+  {
+    name:"Meteor Golem",
+    cost:["colorless", "colorless", "colorless", "colorless", "colorless", "colorless", "colorless"],
+    color:"colorless",
+    rarity:"uncommon",
+    rating: 1.5,
+    source:"http://mythicspoiler.com/m19/cards/meteorgolem.jpg"
+  },
+  {
+    name:"Millstone",
+    cost:["colorless", "colorless"],
+    color:"colorless",
+    rarity:"uncommon",
+    rating: 1,
+    source:"http://mythicspoiler.com/m19/cards/millstone.jpg"
+  },
+  {
+    name:"Rogue’s Gloves",
+    cost:["colorless", "colorless"],
+    color:"colorless",
+    rarity:"uncommon",
+    rating: 2,
+    source:"http://mythicspoiler.com/m19/cards/roguesgloves.jpg"
+  },
+  {
+    name:"Sigiled Sword of Valeron",
+    cost:["colorless", "colorless", "colorless"],
+    color:"colorless",
+    rarity:"rare",
+    rating: 3.5,
+    source:"http://mythicspoiler.com/m19/cards/sigiledswordofvaleron2.jpg"
+  },
+  {
+    name:"Skyscanner",
+    cost:["colorless", "colorless", "colorless"],
+    color:"colorless",
+    rarity:"common",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/skyscanner1.jpg"
+  },
+  {
+    name:"Suspicious Bookcase",
+    cost:["colorless", "colorless"],
+    color:"colorless",
+    rarity:"uncommon",
+    rating: 2,
+    source:"http://mythicspoiler.com/m19/cards/suspiciousbookcase.jpg"
+  },
+  {
+    name:"Transmogrifying Wand",
+    cost:["colorless", "colorless", "colorless"],
+    color:"colorless",
+    rarity:"rare",
+    rating: 3.5,
+    source:"http://mythicspoiler.com/m19/cards/transmogrifyingwand2.jpg"
+  },
+  {
     name:"Detection Tower",
     cost:["Null"],
     color:"colorless",
