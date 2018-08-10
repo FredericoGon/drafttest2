@@ -2003,6 +2003,310 @@ var arrayTest = [
     source:"http://mythicspoiler.com/m19/cards/valiantknight.jpg"
   },
   {
+    name:"Aether Tunnel",
+    cost:["blue", "colorless"],
+    color:"blue",
+    rarity:"uncommon",
+    rating: 2.5,
+    source:"http://mythicspoiler.com/m19/cards/aethertunnel.jpg"
+  },
+  {
+    name:"Anticipate",
+    cost:["blue", "colorless"],
+    color:"blue",
+    rarity:"common",
+    rating: 2,
+    source:"http://mythicspoiler.com/m19/cards/anticipate1.jpg"
+  },
+  {
+    name:"Aven Wind Mage",
+    cost:["blue", "colorless", "colorless"],
+    color:"blue",
+    rarity:"common",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/avenwindmage.jpg"
+  },
+  {
+    name:"Bone to Ash",
+    cost:["blue", "blue", "colorless", "colorless"],
+    color:"blue",
+    rarity:"uncommon",
+    rating: 1.5,
+    source:"http://mythicspoiler.com/m19/cards/bonetoash.jpg"
+  },
+  {
+    name:"Cancel",
+    cost:["blue", "blue", "colorless"],
+    color:"blue",
+    rarity:"common",
+    rating: 1.5,
+    source:"http://mythicspoiler.com/m19/cards/cancel1.jpg"
+  },
+  {
+    name:"Departed Deckhand",
+    cost:["blue", "colorless"],
+    color:"blue",
+    rarity:"uncommon",
+    rating: 3.5,
+    source:"http://mythicspoiler.com/m19/cards/departeddeckhand1.jpg"
+  },
+  {
+    name:"Disperse",
+    cost:["blue", "colorless"],
+    color:"blue",
+    rarity:"common",
+    rating: 1.5,
+    source:"http://mythicspoiler.com/m19/cards/disperse1.jpg"
+  },
+  {
+    name:"Divination",
+    cost:["blue", "colorless", "colorless"],
+    color:"blue",
+    rarity:"common",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/divination1.jpg"
+  },
+  {
+    name:"Djinn of Wishes",
+    cost:["blue", "blue", "colorless", "colorless", "colorless"],
+    color:"blue",
+    rarity:"rare",
+    rating: 4.5,
+    source:"http://mythicspoiler.com/m19/cards/djinnofwishes.jpg"
+  },
+  {
+    name:"Dwindle",
+    cost:["blue", "colorless", "colorless"],
+    color:"blue",
+    rarity:"common",
+    rating: 2.5,
+    source:"http://mythicspoiler.com/m19/cards/dwindle1.jpg"
+  },
+  {
+    name:"Essence Scatter",
+    cost:["blue", "colorless"],
+    color:"blue",
+    rarity:"common",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/essencescatter.jpg"
+  },
+  {
+    name:"Exclusion Mage",
+    cost:["blue", "colorless", "colorless"],
+    color:"blue",
+    rarity:"uncommon",
+    rating: 3.5,
+    source:"http://mythicspoiler.com/m19/cards/exclusionmage.jpg"
+  },
+  {
+    name:"Frilled Sea Serpent",
+    cost:["blue","blue", "colorless", "colorless", "colorless", "colorless"],
+    color:"blue",
+    rarity:"common",
+    rating: 2,
+    source:"http://mythicspoiler.com/m19/cards/frilledseaserpent1.jpg"
+  },
+  {
+    name:"Gearsmith Prodigy",
+    cost:["blue"],
+    color:"blue",
+    rarity:"common",
+    rating: 1,
+    source:"http://mythicspoiler.com/m19/cards/gearsmithprodigy1.jpg"
+  },
+  {
+    name:"Ghostform",
+    cost:["blue", "colorless"],
+    color:"blue",
+    rarity:"common",
+    rating: 1,
+    source:"http://mythicspoiler.com/m19/cards/ghostform1.jpg"
+  },
+  {
+    name:"Horizon Scholar",
+    cost:["blue", "colorless", "colorless", "colorless", "colorless","colorless"],
+    color:"blue",
+    rarity:"uncommon",
+    rating: 3.5,
+    source:"http://mythicspoiler.com/m19/cards/horizonscholar.jpg"
+  },
+  {
+    name:"Metamorphic Alteration",
+    cost:["blue", "colorless"],
+    color:"blue",
+    rarity:"rare",
+    rating: 0.5,
+    source:"http://mythicspoiler.com/m19/cards/metamorphicalteration2.jpg"
+  },
+  {
+    name:"Mirror Image",
+    cost:["blue", "colorless", "colorless"],
+    color:"blue",
+    rarity:"uncommon",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/mirrorimage.jpg"
+  },
+  {
+    name:"Mistcaller",
+    cost:["blue"],
+    color:"blue",
+    rarity:"rare",
+    rating: 0.5,
+    source:"http://mythicspoiler.com/m19/cards/mistcaller1.jpg"
+  },
+  {
+    name:"Mystic Archaeologist",
+    cost:["blue", "colorless"],
+    color:"blue",
+    rarity:"rare",
+    rating: 3.5,
+    source:"http://mythicspoiler.com/m19/cards/mysticarcheologist1.jpg"
+  },
+  {
+    name:"Omenspeaker",
+    cost:["blue", "colorless"],
+    color:"blue",
+    rarity:"common",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/omenspeaker1.jpg"
+  },
+  {
+    name:"One with the Machine",
+    cost:["blue", "colorless", "colorless", "colorless"],
+    color:"blue",
+    rarity:"rare",
+    rating: 0,
+    source:"http://mythicspoiler.com/m19/cards/onewiththemachine.jpg"
+  },
+  {
+    name:"Patient Rebuilding",
+    cost:["blue", "blue", "colorless", "colorless", "colorless"],
+    color:"blue",
+    rarity:"rare",
+    rating: 3.5,
+    source:"http://mythicspoiler.com/m19/cards/patientrebuilding.jpg"
+  },
+  {
+    name:"Psychic Corrosion",
+    cost:["blue", "colorless", "colorless"],
+    color:"blue",
+    rarity:"uncommon",
+    rating: 1,
+    source:"http://mythicspoiler.com/m19/cards/psychiccorrosion1.jpg"
+  },
+  {
+    name:"Sai, Master Thopterist",
+    cost:["blue", "colorless", "colorless"],
+    color:"blue",
+    rarity:"rare",
+    rating: 2,
+    source:"http://mythicspoiler.com/m19/cards/saimasterthopterist1.jpg"
+  },
+  {
+    name:"Salvager of Secrets",
+    cost:["blue", "blue", "colorless", "colorless", "colorless"],
+    color:"blue",
+    rarity:"common",
+    rating: 3,
+    source:"http://mythicspoiler.com/m19/cards/salvagerofsecrets1.jpg"
+  },
+  {
+    name:"Scholar of Stars",
+    cost:["blue", "colorless", "colorless", "colorless"],
+    color:"blue",
+    rarity:"common",
+    rating: 1.5,
+    source:"http://mythicspoiler.com/m19/cards/scholarofstars1.jpg"
+  },
+  {
+    name:"Sift",
+    cost:["blue", "colorless", "colorless", "colorless"],
+    color:"blue",
+    rarity:"uncommon",
+    rating: 3.5,
+    source:"http://mythicspoiler.com/m19/cards/sift1.jpg"
+  },
+  {
+    name:"Skilled Animator",
+    cost:["blue", "colorless", "colorless"],
+    color:"blue",
+    rarity:"uncommon",
+    rating: 1.5,
+    source:"http://mythicspoiler.com/m19/cards/skilledanimator.jpg"
+  },
+  {
+    name:"Sleep",
+    cost:["blue", "blue", "colorless", "colorless"],
+    color:"blue",
+    rarity:"uncommon",
+    rating: 2,
+    source:"http://mythicspoiler.com/m19/cards/sleep.jpg"
+  },
+  {
+    name:"Snapping Drake",
+    cost:["blue", "colorless", "colorless", "colorless"],
+    color:"blue",
+    rarity:"common",
+    rating: 2.5,
+    source:"http://mythicspoiler.com/m19/cards/snappingdrake.jpg"
+  },
+  {
+    name:"Supreme Phantom",
+    cost:["blue", "colorless"],
+    color:"blue",
+    rarity:"rare",
+    rating: 2.5,
+    source:"http://mythicspoiler.com/m19/cards/supremephantom1.jpg"
+  },
+  {
+    name:"Switcheroo",
+    cost:["blue", "colorless", "colorless", "colorless", "colorless"],
+    color:"blue",
+    rarity:"uncommon",
+    rating: 1.5,
+    source:"http://mythicspoiler.com/m19/cards/switcheroo.jpg"
+  },
+  {
+    name:"Tolarian Scholar",
+    cost:["blue", "colorless", "colorless"],
+    color:"blue",
+    rarity:"common",
+    rating: 1,
+    source:"http://mythicspoiler.com/m19/cards/tolarianscholar1.jpg"
+  },
+  {
+    name:"Totally Lost",
+    cost:["blue", "colorless", "colorless", "colorless", "colorless"],
+    color:"blue",
+    rarity:"common",
+    rating: 1.5,
+    source:"http://mythicspoiler.com/m19/cards/totallylost.jpg"
+  },
+  {
+    name:"Uncomfortable Chill",
+    cost:["blue", "colorless", "colorless"],
+    color:"blue",
+    rarity:"common",
+    rating: 2,
+    source:"http://mythicspoiler.com/m19/cards/uncomfortablechill1.jpg"
+  },
+  {
+    name:"Wall of Mist",
+    cost:["blue", "colorless"],
+    color:"blue",
+    rarity:"common",
+    rating: 1.5,
+    source:"http://mythicspoiler.com/m19/cards/wallofmist1.jpg"
+  },
+  {
+    name:"Windreader Sphinx",
+    cost:["blue", "blue", "colorless", "colorless", "colorless", "colorless", "colorless"],
+    color:"blue",
+    rarity:"rare",
+    rating: 4,
+    source:"http://mythicspoiler.com/m19/cards/windreadersphinx.jpg"
+  },
+  {
     name:"Detection Tower",
     cost:["Null"],
     color:"colorless",
