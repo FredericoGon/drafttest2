@@ -14,6 +14,15 @@ var img = $("<img>").attr({
   return img;
 }
 
+// Função para gerar imagem
+
+function createImage(imgName, arrayNmbr){
+  var imgName = $("<img>").attr({
+    "src" : booster[arrayNmbr].source
+  });
+  $("#createBoosterDiv").append(imgName);
+}
+
 //Código para gerar uma nova array com o Booster
 
 $("#generateBooster").click(()=>{
@@ -132,6 +141,8 @@ var imgC15 = $("<img>").attr({
     $("#createBoosterDiv").append(imgC15);
   //Final de Generate Booster
 })
+
+
 
 // Teste para organizar as cores
 
