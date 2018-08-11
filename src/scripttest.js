@@ -2319,7 +2319,8 @@ var arrayTest = [
   },
   {
     name:"Apex of Power",
-    cost:["red", "red","red", "colorless", "colorless", "colorless", "colorless", "colorless", "colorless", "colorless"],
+    cost:["red", "red","red",
+          "colorless", "colorless", "colorless", "colorless", "colorless", "colorless", "colorless"],
     color:"red",
     rarity:"rare",
     rating: 0,
@@ -3239,7 +3240,7 @@ var arrayTest = [
   },
   {
     name:"Detection Tower",
-    cost:["Null"],
+    cost:[],
     color:"colorless",
     rarity:"rare",
     rating: 0.5,
@@ -3247,7 +3248,7 @@ var arrayTest = [
   },
   {
     name:"Reliquary Tower",
-    cost:["Null"],
+    cost:[],
     color:"colorless",
     rarity:"uncommon",
     rating: 0,
@@ -3255,7 +3256,7 @@ var arrayTest = [
   },
   {
     name:"Rupture Spire",
-    cost:["Null"],
+    cost:[],
     color:"colorless",
     rarity:"uncommon",
     rating: 2,
@@ -3263,7 +3264,7 @@ var arrayTest = [
   },
   {
     name:"Cinder Barrens",
-    cost:["Null"],
+    cost:[],
     color:"colorless",
     rarity:"lcommon",
     rating: 3,
@@ -3271,7 +3272,7 @@ var arrayTest = [
   },
   {
     name:"Forsaken Sanctuary",
-    cost:["Null"],
+    cost:[],
     color:"colorless",
     rarity:"lcommon",
     rating: 3,
@@ -3279,7 +3280,7 @@ var arrayTest = [
   },
   {
     name:"Foul Orchard",
-    cost:["Null"],
+    cost:[],
     color:"colorless",
     rarity:"lcommon",
     rating: 3,
@@ -3287,7 +3288,7 @@ var arrayTest = [
   },
   {
     name:"Highland Lake",
-    cost:["Null"],
+    cost:[],
     color:"colorless",
     rarity:"lcommon",
     rating: 3,
@@ -3295,7 +3296,7 @@ var arrayTest = [
   },
   {
     name:"Meandering River",
-    cost:["Null"],
+    cost:[],
     color:"colorless",
     rarity:"lcommon",
     rating: 3,
@@ -3303,7 +3304,7 @@ var arrayTest = [
   },
   {
     name:"Stone Quarry",
-    cost:["Null"],
+    cost:[],
     color:"colorless",
     rarity:"lcommon",
     rating: 3,
@@ -3311,7 +3312,7 @@ var arrayTest = [
   },
   {
     name:"Submerged Boneyard",
-    cost:["Null"],
+    cost:[],
     color:"colorless",
     rarity:"lcommon",
     rating: 3,
@@ -3319,7 +3320,7 @@ var arrayTest = [
   },
   {
     name:"Timber Gorge",
-    cost:["Null"],
+    cost:[],
     color:"colorless",
     rarity:"lcommon",
     rating: 3,
@@ -3327,7 +3328,7 @@ var arrayTest = [
   },
   {
     name:"Tranquil Expanse",
-    cost:["Null"],
+    cost:[],
     color:"colorless",
     rarity:"lcommon",
     rating: 3,
@@ -3335,7 +3336,7 @@ var arrayTest = [
   },
   {
     name:"Woodland Stream",
-    cost:["Null"],
+    cost:[],
     color:"colorless",
     rarity:"lcommon",
     rating: 3,
@@ -3343,7 +3344,7 @@ var arrayTest = [
   },
   {
     name:"Plains",
-    cost:["Null"],
+    cost:[],
     color:"colorless",
     rarity:"lcommon",
     rating: 0,
@@ -3351,7 +3352,7 @@ var arrayTest = [
   },
   {
     name:"Plains",
-    cost:["Null"],
+    cost:[],
     color:"colorless",
     rarity:"lcommon",
     rating: 0,
@@ -3359,7 +3360,7 @@ var arrayTest = [
   },
   {
     name:"Plains",
-    cost:["Null"],
+    cost:[],
     color:"colorless",
     rarity:"lcommon",
     rating: 0,
@@ -3367,7 +3368,7 @@ var arrayTest = [
   },
   {
     name:"Plains",
-    cost:["Null"],
+    cost:[],
     color:"colorless",
     rarity:"lcommon",
     rating: 0,
@@ -3375,7 +3376,7 @@ var arrayTest = [
   },
   {
     name:"Island",
-    cost:["Null"],
+    cost:[],
     color:"colorless",
     rarity:"lcommon",
     rating: 0,
@@ -3383,7 +3384,7 @@ var arrayTest = [
   },
   {
     name:"Island",
-    cost:["Null"],
+    cost:[],
     color:"colorless",
     rarity:"lcommon",
     rating: 0,
@@ -3391,7 +3392,7 @@ var arrayTest = [
   },
   {
     name:"Island",
-    cost:["Null"],
+    cost:[],
     color:"colorless",
     rarity:"lcommon",
     rating: 0,
@@ -3399,7 +3400,7 @@ var arrayTest = [
   },
   {
     name:"Island",
-    cost:["Null"],
+    cost:[],
     color:"colorless",
     rarity:"lcommon",
     rating: 0,
@@ -3407,7 +3408,7 @@ var arrayTest = [
   },
   {
     name:"Swamp",
-    cost:["Null"],
+    cost:[],
     color:"colorless",
     rarity:"lcommon",
     rating: 0,
@@ -3415,7 +3416,7 @@ var arrayTest = [
   },
   {
     name:"Swamp",
-    cost:["Null"],
+    cost:[],
     color:"colorless",
     rarity:"lcommon",
     rating: 0,
@@ -3423,7 +3424,7 @@ var arrayTest = [
   },
   {
     name:"Swamp",
-    cost:["Null"],
+    cost:[],
     color:"colorless",
     rarity:"lcommon",
     rating: 0,
@@ -3431,7 +3432,7 @@ var arrayTest = [
   },
   {
     name:"Swamp",
-    cost:["Null"],
+    cost:[],
     color:"colorless",
     rarity:"lcommon",
     rating: 0,
@@ -3439,7 +3440,7 @@ var arrayTest = [
   },
   {
     name:"Mountain",
-    cost:["Null"],
+    cost:[],
     color:"colorless",
     rarity:"lcommon",
     rating: 0,
@@ -3447,7 +3448,7 @@ var arrayTest = [
   },
   {
     name:"Mountain",
-    cost:["Null"],
+    cost:[],
     color:"colorless",
     rarity:"lcommon",
     rating: 0,
@@ -3455,7 +3456,7 @@ var arrayTest = [
   },
   {
     name:"Mountain",
-    cost:["Null"],
+    cost:[],
     color:"colorless",
     rarity:"lcommon",
     rating: 0,
@@ -3463,7 +3464,7 @@ var arrayTest = [
   },
   {
     name:"Mountain",
-    cost:["Null"],
+    cost:[],
     color:"colorless",
     rarity:"lcommon",
     rating: 0,
@@ -3471,7 +3472,7 @@ var arrayTest = [
   },
   {
     name:"Forest",
-    cost:["Null"],
+    cost:[],
     color:"colorless",
     rarity:"lcommon",
     rating: 0,
@@ -3479,7 +3480,7 @@ var arrayTest = [
   },
   {
     name:"Forest",
-    cost:["Null"],
+    cost:[],
     color:"colorless",
     rarity:"lcommon",
     rating: 0,
@@ -3487,7 +3488,7 @@ var arrayTest = [
   },
   {
     name:"Forest",
-    cost:["Null"],
+    cost:[],
     color:"colorless",
     rarity:"lcommon",
     rating: 0,
@@ -3495,7 +3496,7 @@ var arrayTest = [
   },
   {
     name:"Forest",
-    cost:["Null"],
+    cost:[],
     color:"colorless",
     rarity:"lcommon",
     rating: 0,
