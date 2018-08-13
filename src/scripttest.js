@@ -2,1145 +2,7 @@
 // Sealed m19, also for Draft "you"
 //
 //
-function draft() {
-    rares.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("rare").src = rares[0];
-}
-function draft2() {
-    uncommon.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("uncommon1").src = uncommon[0];
-}
-function draft3() {
-    uncommon.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("uncommon2").src = uncommon[0];
-    while (document.getElementById("uncommon1").src == document.getElementById("uncommon2").src) {
-        uncommon.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("uncommon2").src = uncommon[0];
-    }
-}
-function draft4() {
-    uncommon.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("uncommon3").src = uncommon[0];
-    while (
-        document.getElementById("uncommon3").src == document.getElementById("uncommon2").src
-        ||document.getElementById("uncommon3").src == document.getElementById("uncommon1").src)
-        {
-        uncommon.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("uncommon3").src = uncommon[0];
-    }
-}
-function draft5() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("common1").src = common[0];
-}
-function draft6() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("common2").src = common[0];
-    while(
-        document.getElementById("common2").src == document.getElementById("common1").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("common2").src = common[0];
-    }
-}
-function draft7() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("common3").src = common[0];
-    while (
-        document.getElementById("common3").src == document.getElementById("common2").src
-        || document.getElementById("common3").src == document.getElementById("common1").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("common3").src = common[0];
-    }
-}
-function draft8() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("common4").src = common[0];
-    while (
-        document.getElementById("common4").src == document.getElementById("common3").src
-        ||document.getElementById("common4").src == document.getElementById("common2").src
-        ||document.getElementById("common4").src == document.getElementById("common1").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("common4").src = common[0];
-    }
-}
-function draft9() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("common5").src = common[0];
-    while (
-        document.getElementById("common5").src == document.getElementById("common4").src
-        ||document.getElementById("common5").src == document.getElementById("common3").src
-        ||document.getElementById("common5").src == document.getElementById("common2").src
-        ||document.getElementById("common5").src == document.getElementById("common1").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("common5").src = common[0];
-    }
-}
-function draft10() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("common6").src = common[0];
-    while (
-        document.getElementById("common6").src == document.getElementById("common4").src
-        ||document.getElementById("common6").src == document.getElementById("common3").src
-        ||document.getElementById("common6").src == document.getElementById("common2").src
-        ||document.getElementById("common6").src == document.getElementById("common1").src
-        ||document.getElementById("common6").src == document.getElementById("common5").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("common6").src = common[0];
-    }
-}
-function draft11() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("common7").src = common[0];
-    while (
-        document.getElementById("common7").src == document.getElementById("common4").src
-        ||document.getElementById("common7").src == document.getElementById("common3").src
-        ||document.getElementById("common7").src == document.getElementById("common2").src
-        ||document.getElementById("common7").src == document.getElementById("common1").src
-        ||document.getElementById("common7").src == document.getElementById("common5").src
-        ||document.getElementById("common7").src == document.getElementById("common6").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("common7").src = common[0];
-    }
-}
-function draft12() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("common8").src = common[0];
-    while (
-        document.getElementById("common8").src == document.getElementById("common4").src
-        ||document.getElementById("common8").src == document.getElementById("common3").src
-        ||document.getElementById("common8").src == document.getElementById("common2").src
-        ||document.getElementById("common8").src == document.getElementById("common1").src
-        ||document.getElementById("common8").src == document.getElementById("common5").src
-        ||document.getElementById("common8").src == document.getElementById("common6").src
-        ||document.getElementById("common8").src == document.getElementById("common7").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("common8").src = common[0];
-    }
-}
-function draft13() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("common9").src = common[0];
-    while (
-        document.getElementById("common9").src == document.getElementById("common4").src
-        ||document.getElementById("common9").src == document.getElementById("common3").src
-        ||document.getElementById("common9").src == document.getElementById("common2").src
-        ||document.getElementById("common9").src == document.getElementById("common1").src
-        ||document.getElementById("common9").src == document.getElementById("common5").src
-        ||document.getElementById("common9").src == document.getElementById("common6").src
-        ||document.getElementById("common9").src == document.getElementById("common7").src
-        ||document.getElementById("common9").src == document.getElementById("common8").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("common9").src = common[0];
-    }
-}
-function draft14() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("common10").src = common[0];
-    while (
-        document.getElementById("common10").src == document.getElementById("common4").src
-        ||document.getElementById("common10").src == document.getElementById("common3").src
-        ||document.getElementById("common10").src == document.getElementById("common2").src
-        ||document.getElementById("common10").src == document.getElementById("common1").src
-        ||document.getElementById("common10").src == document.getElementById("common5").src
-        ||document.getElementById("common10").src == document.getElementById("common6").src
-        ||document.getElementById("common10").src == document.getElementById("common7").src
-        ||document.getElementById("common10").src == document.getElementById("common8").src
-        ||document.getElementById("common10").src == document.getElementById("common9").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("common10").src = common[0];
-    }
-}
-function draft15() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("common11").src = common[0];
-    while (
-        document.getElementById("common11").src == document.getElementById("common4").src
-        ||document.getElementById("common11").src == document.getElementById("common3").src
-        ||document.getElementById("common11").src == document.getElementById("common2").src
-        ||document.getElementById("common11").src == document.getElementById("common1").src
-        ||document.getElementById("common11").src == document.getElementById("common5").src
-        ||document.getElementById("common11").src == document.getElementById("common6").src
-        ||document.getElementById("common11").src == document.getElementById("common7").src
-        ||document.getElementById("common11").src == document.getElementById("common8").src
-        ||document.getElementById("common11").src == document.getElementById("common9").src
-        ||document.getElementById("common11").src == document.getElementById("common10").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("common11").src = common[0];
-    }
-}
-//
-// Pokémon Thunderclap
-//
-//
-function pDraft1() {
-    pRare.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pRare").src = pRare[0];
-}
-function pDraft2() {
-    pUncommon.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pUncommon1").src = pUncommon[0];
-}
-function pDraft3() {
-    pUncommon.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pUncommon2").src = pUncommon[0];
-    while (
-        document.getElementById("pUncommon2").src ==  document.getElementById("pUncommon1").src
-    ) {
-        pUncommon.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pUncommon2").src = pUncommon[0];
-    }
-    }
-function pDraft4() {
-    pCommon.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pCommon1").src = pCommon[0];
-}
-function pDraft5() {
-    pCommon.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pCommon2").src = pCommon[0];
-    while (
-        document.getElementById("pCommon2").src == document.getElementById("pCommon1").src
-    ) {
-        pCommon.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pCommon2").src = pCommon[0];
-    }
-}
-function pDraft6() {
-    pCommon.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pCommon3").src = pCommon[0];
-    while (
-        document.getElementById("pCommon3").src == document.getElementById("pCommon2").src
-        ||document.getElementById("pCommon3").src == document.getElementById("pCommon1").src
-    ) {
-        pCommon.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pCommon3").src = pCommon[0];
-    }
-}
-//
-// Test
-//
-//
-function tDraft1() {
-    test.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("tTest1").src = test[0];
-}
-function tDraft2() {
-    test.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("tTest2").src = test[0];
-    while (document.getElementById("tTest1").src == document.getElementById("tTest2").src) {
-        test.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("tTest2").src = test[0];
-    }
-}
-//
-// Draft / Pod1
-//
-//
-function pod1draft1() {
-    rares.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod1rare").src = rares[0];
-}
-function pod1draft2() {
-    uncommon.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod1uncommon1").src = uncommon[0];
-}
-function pod1draft3() {
-    uncommon.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod1uncommon2").src = uncommon[0];
-    while (document.getElementById("pod1uncommon1").src == document.getElementById("pod1uncommon2").src) {
-        uncommon.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod1uncommon2").src = uncommon[0];
-    }
-}
-function pod1draft4() {
-    uncommon.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod1uncommon3").src = uncommon[0];
-    while (
-        document.getElementById("pod1uncommon3").src == document.getElementById("pod1uncommon2").src
-        ||document.getElementById("pod1uncommon3").src == document.getElementById("pod1uncommon1").src)
-        {
-        uncommon.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod1uncommon3").src = uncommon[0];
-    }
-}
-function pod1draft5() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod1common1").src = common[0];
-}
-function pod1draft6() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod1common2").src = common[0];
-    while(
-        document.getElementById("pod1common2").src == document.getElementById("pod1common1").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod1common2").src = common[0];
-    }
-}
-function pod1draft7() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod1common3").src = common[0];
-    while (
-        document.getElementById("pod1common3").src == document.getElementById("pod1common2").src
-        || document.getElementById("pod1common3").src == document.getElementById("pod1common1").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod1common3").src = common[0];
-    }
-}
-function pod1draft8() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod1common4").src = common[0];
-    while (
-        document.getElementById("pod1common4").src == document.getElementById("pod1common3").src
-        ||document.getElementById("pod1common4").src == document.getElementById("pod1common2").src
-        ||document.getElementById("pod1common4").src == document.getElementById("pod1common1").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod1common4").src = common[0];
-    }
-}
-function pod1draft9() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod1common5").src = common[0];
-    while (
-        document.getElementById("pod1common5").src == document.getElementById("pod1common4").src
-        ||document.getElementById("pod1common5").src == document.getElementById("pod1common3").src
-        ||document.getElementById("pod1common5").src == document.getElementById("pod1common2").src
-        ||document.getElementById("pod1common5").src == document.getElementById("pod1common1").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod1common5").src = common[0];
-    }
-}
-function pod1draft10() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod1common6").src = common[0];
-    while (
-        document.getElementById("pod1common6").src == document.getElementById("pod1common4").src
-        ||document.getElementById("pod1common6").src == document.getElementById("pod1common3").src
-        ||document.getElementById("pod1common6").src == document.getElementById("pod1common2").src
-        ||document.getElementById("pod1common6").src == document.getElementById("pod1common1").src
-        ||document.getElementById("pod1common6").src == document.getElementById("pod1common5").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod1common6").src = common[0];
-    }
-}
-function pod1draft11() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod1common7").src = common[0];
-    while (
-        document.getElementById("pod1common7").src == document.getElementById("pod1common4").src
-        ||document.getElementById("pod1common7").src == document.getElementById("pod1common3").src
-        ||document.getElementById("pod1common7").src == document.getElementById("pod1common2").src
-        ||document.getElementById("pod1common7").src == document.getElementById("pod1common1").src
-        ||document.getElementById("pod1common7").src == document.getElementById("pod1common5").src
-        ||document.getElementById("pod1common7").src == document.getElementById("pod1common6").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod1common7").src = common[0];
-    }
-}
-function pod1draft12() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod1common8").src = common[0];
-    while (
-        document.getElementById("pod1common8").src == document.getElementById("pod1common4").src
-        ||document.getElementById("pod1common8").src == document.getElementById("pod1common3").src
-        ||document.getElementById("pod1common8").src == document.getElementById("pod1common2").src
-        ||document.getElementById("pod1common8").src == document.getElementById("pod1common1").src
-        ||document.getElementById("pod1common8").src == document.getElementById("pod1common5").src
-        ||document.getElementById("pod1common8").src == document.getElementById("pod1common6").src
-        ||document.getElementById("pod1common8").src == document.getElementById("pod1common7").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod1common8").src = common[0];
-    }
-}
-function pod1draft13() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod1common9").src = common[0];
-    while (
-        document.getElementById("pod1common9").src == document.getElementById("pod1common4").src
-        ||document.getElementById("pod1common9").src == document.getElementById("pod1common3").src
-        ||document.getElementById("pod1common9").src == document.getElementById("pod1common2").src
-        ||document.getElementById("pod1common9").src == document.getElementById("pod1common1").src
-        ||document.getElementById("pod1common9").src == document.getElementById("pod1common5").src
-        ||document.getElementById("pod1common9").src == document.getElementById("pod1common6").src
-        ||document.getElementById("pod1common9").src == document.getElementById("pod1common7").src
-        ||document.getElementById("pod1common9").src == document.getElementById("pod1common8").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod1common9").src = common[0];
-    }
-}
-function pod1draft14() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod1common10").src = common[0];
-    while (
-        document.getElementById("pod1common10").src == document.getElementById("pod1common4").src
-        ||document.getElementById("pod1common10").src == document.getElementById("pod1common3").src
-        ||document.getElementById("pod1common10").src == document.getElementById("pod1common2").src
-        ||document.getElementById("pod1common10").src == document.getElementById("pod1common1").src
-        ||document.getElementById("pod1common10").src == document.getElementById("pod1common5").src
-        ||document.getElementById("pod1common10").src == document.getElementById("pod1common6").src
-        ||document.getElementById("pod1common10").src == document.getElementById("pod1common7").src
-        ||document.getElementById("pod1common10").src == document.getElementById("pod1common8").src
-        ||document.getElementById("pod1common10").src == document.getElementById("pod1common9").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod1common10").src = common[0];
-    }
-}
-function pod1draft15() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod1common11").src = common[0];
-    while (
-        document.getElementById("pod1common11").src == document.getElementById("pod1common4").src
-        ||document.getElementById("pod1common11").src == document.getElementById("pod1common3").src
-        ||document.getElementById("pod1common11").src == document.getElementById("pod1common2").src
-        ||document.getElementById("pod1common11").src == document.getElementById("pod1common1").src
-        ||document.getElementById("pod1common11").src == document.getElementById("pod1common5").src
-        ||document.getElementById("pod1common11").src == document.getElementById("pod1common6").src
-        ||document.getElementById("pod1common11").src == document.getElementById("pod1common7").src
-        ||document.getElementById("pod1common11").src == document.getElementById("pod1common8").src
-        ||document.getElementById("pod1common11").src == document.getElementById("pod1common9").src
-        ||document.getElementById("pod1common11").src == document.getElementById("pod1common10").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod1common11").src = common[0];
-    }
-}
-//
-// Draft / Pod2
-//
-//
-function pod2draft1() {
-    rares.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod2rare").src = rares[0];
-}
-function pod2draft2() {
-    uncommon.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod2uncommon1").src = uncommon[0];
-}
-function pod2draft3() {
-    uncommon.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod2uncommon2").src = uncommon[0];
-    while (document.getElementById("pod2uncommon1").src == document.getElementById("pod2uncommon2").src) {
-        uncommon.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod2uncommon2").src = uncommon[0];
-    }
-}
-function pod2draft4() {
-    uncommon.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod2uncommon3").src = uncommon[0];
-    while (
-        document.getElementById("pod2uncommon3").src == document.getElementById("pod2uncommon2").src
-        ||document.getElementById("pod2uncommon3").src == document.getElementById("pod2uncommon1").src)
-        {
-        uncommon.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod2uncommon3").src = uncommon[0];
-    }
-}
-function pod2draft5() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod2common1").src = common[0];
-}
-function pod2draft6() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod2common2").src = common[0];
-    while(
-        document.getElementById("pod2common2").src == document.getElementById("pod2common1").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod2common2").src = common[0];
-    }
-}
-function pod2draft7() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod2common3").src = common[0];
-    while (
-        document.getElementById("pod2common3").src == document.getElementById("pod2common2").src
-        || document.getElementById("pod2common3").src == document.getElementById("pod2common1").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod2common3").src = common[0];
-    }
-}
-function pod2draft8() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod2common4").src = common[0];
-    while (
-        document.getElementById("pod2common4").src == document.getElementById("pod2common3").src
-        ||document.getElementById("pod2common4").src == document.getElementById("pod2common2").src
-        ||document.getElementById("pod2common4").src == document.getElementById("pod2common1").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod2common4").src = common[0];
-    }
-}
-function pod2draft9() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod2common5").src = common[0];
-    while (
-        document.getElementById("pod2common5").src == document.getElementById("pod2common4").src
-        ||document.getElementById("pod2common5").src == document.getElementById("pod2common3").src
-        ||document.getElementById("pod2common5").src == document.getElementById("pod2common2").src
-        ||document.getElementById("pod2common5").src == document.getElementById("pod2common1").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod2common5").src = common[0];
-    }
-}
-function pod2draft10() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod2common6").src = common[0];
-    while (
-        document.getElementById("pod2common6").src == document.getElementById("pod2common4").src
-        ||document.getElementById("pod2common6").src == document.getElementById("pod2common3").src
-        ||document.getElementById("pod2common6").src == document.getElementById("pod2common2").src
-        ||document.getElementById("pod2common6").src == document.getElementById("pod2common1").src
-        ||document.getElementById("pod2common6").src == document.getElementById("pod2common5").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod2common6").src = common[0];
-    }
-}
-function pod2draft11() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod2common7").src = common[0];
-    while (
-        document.getElementById("pod2common7").src == document.getElementById("pod2common4").src
-        ||document.getElementById("pod2common7").src == document.getElementById("pod2common3").src
-        ||document.getElementById("pod2common7").src == document.getElementById("pod2common2").src
-        ||document.getElementById("pod2common7").src == document.getElementById("pod2common1").src
-        ||document.getElementById("pod2common7").src == document.getElementById("pod2common5").src
-        ||document.getElementById("pod2common7").src == document.getElementById("pod2common6").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod2common7").src = common[0];
-    }
-}
-function pod2draft12() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod2common8").src = common[0];
-    while (
-        document.getElementById("pod2common8").src == document.getElementById("pod2common4").src
-        ||document.getElementById("pod2common8").src == document.getElementById("pod2common3").src
-        ||document.getElementById("pod2common8").src == document.getElementById("pod2common2").src
-        ||document.getElementById("pod2common8").src == document.getElementById("pod2common1").src
-        ||document.getElementById("pod2common8").src == document.getElementById("pod2common5").src
-        ||document.getElementById("pod2common8").src == document.getElementById("pod2common6").src
-        ||document.getElementById("pod2common8").src == document.getElementById("pod2common7").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod2common8").src = common[0];
-    }
-}
-function pod2draft13() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod2common9").src = common[0];
-    while (
-        document.getElementById("pod2common9").src == document.getElementById("pod2common4").src
-        ||document.getElementById("pod2common9").src == document.getElementById("pod2common3").src
-        ||document.getElementById("pod2common9").src == document.getElementById("pod2common2").src
-        ||document.getElementById("pod2common9").src == document.getElementById("pod2common1").src
-        ||document.getElementById("pod2common9").src == document.getElementById("pod2common5").src
-        ||document.getElementById("pod2common9").src == document.getElementById("pod2common6").src
-        ||document.getElementById("pod2common9").src == document.getElementById("pod2common7").src
-        ||document.getElementById("pod2common9").src == document.getElementById("pod2common8").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod2common9").src = common[0];
-    }
-}
-function pod2draft14() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod2common10").src = common[0];
-    while (
-        document.getElementById("pod2common10").src == document.getElementById("pod2common4").src
-        ||document.getElementById("pod2common10").src == document.getElementById("pod2common3").src
-        ||document.getElementById("pod2common10").src == document.getElementById("pod2common2").src
-        ||document.getElementById("pod2common10").src == document.getElementById("pod2common1").src
-        ||document.getElementById("pod2common10").src == document.getElementById("pod2common5").src
-        ||document.getElementById("pod2common10").src == document.getElementById("pod2common6").src
-        ||document.getElementById("pod2common10").src == document.getElementById("pod2common7").src
-        ||document.getElementById("pod2common10").src == document.getElementById("pod2common8").src
-        ||document.getElementById("pod2common10").src == document.getElementById("pod2common9").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod2common10").src = common[0];
-    }
-}
-function pod2draft15() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod2common11").src = common[0];
-    while (
-        document.getElementById("pod2common11").src == document.getElementById("pod2common4").src
-        ||document.getElementById("pod2common11").src == document.getElementById("pod2common3").src
-        ||document.getElementById("pod2common11").src == document.getElementById("pod2common2").src
-        ||document.getElementById("pod2common11").src == document.getElementById("pod2common1").src
-        ||document.getElementById("pod2common11").src == document.getElementById("pod2common5").src
-        ||document.getElementById("pod2common11").src == document.getElementById("pod2common6").src
-        ||document.getElementById("pod2common11").src == document.getElementById("pod2common7").src
-        ||document.getElementById("pod2common11").src == document.getElementById("pod2common8").src
-        ||document.getElementById("pod2common11").src == document.getElementById("pod2common9").src
-        ||document.getElementById("pod2common11").src == document.getElementById("pod2common10").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod2common11").src = common[0];
-    }
-}
-//
-// Draft / Pod3
-//
-//
-function pod3draft1() {
-    rares.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod3rare").src = rares[0];
-}
-function pod3draft2() {
-    uncommon.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod3uncommon1").src = uncommon[0];
-}
-function pod3draft3() {
-    uncommon.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod3uncommon2").src = uncommon[0];
-    while (document.getElementById("pod3uncommon1").src == document.getElementById("pod3uncommon2").src) {
-        uncommon.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod3uncommon2").src = uncommon[0];
-    }
-}
-function pod3draft4() {
-    uncommon.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod3uncommon3").src = uncommon[0];
-    while (
-        document.getElementById("pod3uncommon3").src == document.getElementById("pod3uncommon2").src
-        ||document.getElementById("pod3uncommon3").src == document.getElementById("pod3uncommon1").src)
-        {
-        uncommon.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod3uncommon3").src = uncommon[0];
-    }
-}
-function pod3draft5() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod3common1").src = common[0];
-}
-function pod3draft6() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod3common2").src = common[0];
-    while(
-        document.getElementById("pod3common2").src == document.getElementById("pod3common1").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod3common2").src = common[0];
-    }
-}
-function pod3draft7() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod3common3").src = common[0];
-    while (
-        document.getElementById("pod3common3").src == document.getElementById("pod3common2").src
-        || document.getElementById("pod3common3").src == document.getElementById("pod3common1").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod3common3").src = common[0];
-    }
-}
-function pod3draft8() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod3common4").src = common[0];
-    while (
-        document.getElementById("pod3common4").src == document.getElementById("pod3common3").src
-        ||document.getElementById("pod3common4").src == document.getElementById("pod3common2").src
-        ||document.getElementById("pod3common4").src == document.getElementById("pod3common1").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod3common4").src = common[0];
-    }
-}
-function pod3draft9() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod3common5").src = common[0];
-    while (
-        document.getElementById("pod3common5").src == document.getElementById("pod3common4").src
-        ||document.getElementById("pod3common5").src == document.getElementById("pod3common3").src
-        ||document.getElementById("pod3common5").src == document.getElementById("pod3common2").src
-        ||document.getElementById("pod3common5").src == document.getElementById("pod3common1").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod3common5").src = common[0];
-    }
-}
-function pod3draft10() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod3common6").src = common[0];
-    while (
-        document.getElementById("pod3common6").src == document.getElementById("pod3common4").src
-        ||document.getElementById("pod3common6").src == document.getElementById("pod3common3").src
-        ||document.getElementById("pod3common6").src == document.getElementById("pod3common2").src
-        ||document.getElementById("pod3common6").src == document.getElementById("pod3common1").src
-        ||document.getElementById("pod3common6").src == document.getElementById("pod3common5").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod3common6").src = common[0];
-    }
-}
-function pod3draft11() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod3common7").src = common[0];
-    while (
-        document.getElementById("pod3common7").src == document.getElementById("pod3common4").src
-        ||document.getElementById("pod3common7").src == document.getElementById("pod3common3").src
-        ||document.getElementById("pod3common7").src == document.getElementById("pod3common2").src
-        ||document.getElementById("pod3common7").src == document.getElementById("pod3common1").src
-        ||document.getElementById("pod3common7").src == document.getElementById("pod3common5").src
-        ||document.getElementById("pod3common7").src == document.getElementById("pod3common6").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod3common7").src = common[0];
-    }
-}
-function pod3draft12() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod3common8").src = common[0];
-    while (
-        document.getElementById("pod3common8").src == document.getElementById("pod3common4").src
-        ||document.getElementById("pod3common8").src == document.getElementById("pod3common3").src
-        ||document.getElementById("pod3common8").src == document.getElementById("pod3common2").src
-        ||document.getElementById("pod3common8").src == document.getElementById("pod3common1").src
-        ||document.getElementById("pod3common8").src == document.getElementById("pod3common5").src
-        ||document.getElementById("pod3common8").src == document.getElementById("pod3common6").src
-        ||document.getElementById("pod3common8").src == document.getElementById("pod3common7").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod3common8").src = common[0];
-    }
-}
-function pod3draft13() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod3common9").src = common[0];
-    while (
-        document.getElementById("pod3common9").src == document.getElementById("pod3common4").src
-        ||document.getElementById("pod3common9").src == document.getElementById("pod3common3").src
-        ||document.getElementById("pod3common9").src == document.getElementById("pod3common2").src
-        ||document.getElementById("pod3common9").src == document.getElementById("pod3common1").src
-        ||document.getElementById("pod3common9").src == document.getElementById("pod3common5").src
-        ||document.getElementById("pod3common9").src == document.getElementById("pod3common6").src
-        ||document.getElementById("pod3common9").src == document.getElementById("pod3common7").src
-        ||document.getElementById("pod3common9").src == document.getElementById("pod3common8").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod3common9").src = common[0];
-    }
-}
-function pod3draft14() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod3common10").src = common[0];
-    while (
-        document.getElementById("pod3common10").src == document.getElementById("pod3common4").src
-        ||document.getElementById("pod3common10").src == document.getElementById("pod3common3").src
-        ||document.getElementById("pod3common10").src == document.getElementById("pod3common2").src
-        ||document.getElementById("pod3common10").src == document.getElementById("pod3common1").src
-        ||document.getElementById("pod3common10").src == document.getElementById("pod3common5").src
-        ||document.getElementById("pod3common10").src == document.getElementById("pod3common6").src
-        ||document.getElementById("pod3common10").src == document.getElementById("pod3common7").src
-        ||document.getElementById("pod3common10").src == document.getElementById("pod3common8").src
-        ||document.getElementById("pod3common10").src == document.getElementById("pod3common9").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod3common10").src = common[0];
-    }
-}
-function pod3draft15() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod3common11").src = common[0];
-    while (
-        document.getElementById("pod3common11").src == document.getElementById("pod3common4").src
-        ||document.getElementById("pod3common11").src == document.getElementById("pod3common3").src
-        ||document.getElementById("pod3common11").src == document.getElementById("pod3common2").src
-        ||document.getElementById("pod3common11").src == document.getElementById("pod3common1").src
-        ||document.getElementById("pod3common11").src == document.getElementById("pod3common5").src
-        ||document.getElementById("pod3common11").src == document.getElementById("pod3common6").src
-        ||document.getElementById("pod3common11").src == document.getElementById("pod3common7").src
-        ||document.getElementById("pod3common11").src == document.getElementById("pod3common8").src
-        ||document.getElementById("pod3common11").src == document.getElementById("pod3common9").src
-        ||document.getElementById("pod3common11").src == document.getElementById("pod3common10").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod3common11").src = common[0];
-    }
-}
-//
-// Draft / Pod4
-//
-//
-function pod4draft1() {
-    rares.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod4rare").src = rares[0];
-}
-function pod4draft2() {
-    uncommon.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod4uncommon1").src = uncommon[0];
-}
-function pod4draft3() {
-    uncommon.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod4uncommon2").src = uncommon[0];
-    while (document.getElementById("pod4uncommon1").src == document.getElementById("pod4uncommon2").src) {
-        uncommon.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod4uncommon2").src = uncommon[0];
-    }
-}
-function pod4draft4() {
-    uncommon.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod4uncommon3").src = uncommon[0];
-    while (
-        document.getElementById("pod4uncommon3").src == document.getElementById("pod4uncommon2").src
-        ||document.getElementById("pod4uncommon3").src == document.getElementById("pod4uncommon1").src)
-        {
-        uncommon.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod4uncommon3").src = uncommon[0];
-    }
-}
-function pod4draft5() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod4common1").src = common[0];
-}
-function pod4draft6() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod4common2").src = common[0];
-    while(
-        document.getElementById("pod4common2").src == document.getElementById("pod4common1").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod4common2").src = common[0];
-    }
-}
-function pod4draft7() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod4common3").src = common[0];
-    while (
-        document.getElementById("pod4common3").src == document.getElementById("pod4common2").src
-        || document.getElementById("pod4common3").src == document.getElementById("pod4common1").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod4common3").src = common[0];
-    }
-}
-function pod4draft8() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod4common4").src = common[0];
-    while (
-        document.getElementById("pod4common4").src == document.getElementById("pod4common3").src
-        ||document.getElementById("pod4common4").src == document.getElementById("pod4common2").src
-        ||document.getElementById("pod4common4").src == document.getElementById("pod4common1").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod4common4").src = common[0];
-    }
-}
-function pod4draft9() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod4common5").src = common[0];
-    while (
-        document.getElementById("pod4common5").src == document.getElementById("pod4common4").src
-        ||document.getElementById("pod4common5").src == document.getElementById("pod4common3").src
-        ||document.getElementById("pod4common5").src == document.getElementById("pod4common2").src
-        ||document.getElementById("pod4common5").src == document.getElementById("pod4common1").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod4common5").src = common[0];
-    }
-}
-function pod4draft10() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod4common6").src = common[0];
-    while (
-        document.getElementById("pod4common6").src == document.getElementById("pod4common4").src
-        ||document.getElementById("pod4common6").src == document.getElementById("pod4common3").src
-        ||document.getElementById("pod4common6").src == document.getElementById("pod4common2").src
-        ||document.getElementById("pod4common6").src == document.getElementById("pod4common1").src
-        ||document.getElementById("pod4common6").src == document.getElementById("pod4common5").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod4common6").src = common[0];
-    }
-}
-function pod4draft11() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod4common7").src = common[0];
-    while (
-        document.getElementById("pod4common7").src == document.getElementById("pod4common4").src
-        ||document.getElementById("pod4common7").src == document.getElementById("pod4common3").src
-        ||document.getElementById("pod4common7").src == document.getElementById("pod4common2").src
-        ||document.getElementById("pod4common7").src == document.getElementById("pod4common1").src
-        ||document.getElementById("pod4common7").src == document.getElementById("pod4common5").src
-        ||document.getElementById("pod4common7").src == document.getElementById("pod4common6").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod4common7").src = common[0];
-    }
-}
-function pod4draft12() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod4common8").src = common[0];
-    while (
-        document.getElementById("pod4common8").src == document.getElementById("pod4common4").src
-        ||document.getElementById("pod4common8").src == document.getElementById("pod4common3").src
-        ||document.getElementById("pod4common8").src == document.getElementById("pod4common2").src
-        ||document.getElementById("pod4common8").src == document.getElementById("pod4common1").src
-        ||document.getElementById("pod4common8").src == document.getElementById("pod4common5").src
-        ||document.getElementById("pod4common8").src == document.getElementById("pod4common6").src
-        ||document.getElementById("pod4common8").src == document.getElementById("pod4common7").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod4common8").src = common[0];
-    }
-}
-function pod4draft13() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod4common9").src = common[0];
-    while (
-        document.getElementById("pod4common9").src == document.getElementById("pod4common4").src
-        ||document.getElementById("pod4common9").src == document.getElementById("pod4common3").src
-        ||document.getElementById("pod4common9").src == document.getElementById("pod4common2").src
-        ||document.getElementById("pod4common9").src == document.getElementById("pod4common1").src
-        ||document.getElementById("pod4common9").src == document.getElementById("pod4common5").src
-        ||document.getElementById("pod4common9").src == document.getElementById("pod4common6").src
-        ||document.getElementById("pod4common9").src == document.getElementById("pod4common7").src
-        ||document.getElementById("pod4common9").src == document.getElementById("pod4common8").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod4common9").src = common[0];
-    }
-}
-function pod4draft14() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod4common10").src = common[0];
-    while (
-        document.getElementById("pod4common10").src == document.getElementById("pod4common4").src
-        ||document.getElementById("pod4common10").src == document.getElementById("pod4common3").src
-        ||document.getElementById("pod4common10").src == document.getElementById("pod4common2").src
-        ||document.getElementById("pod4common10").src == document.getElementById("pod4common1").src
-        ||document.getElementById("pod4common10").src == document.getElementById("pod4common5").src
-        ||document.getElementById("pod4common10").src == document.getElementById("pod4common6").src
-        ||document.getElementById("pod4common10").src == document.getElementById("pod4common7").src
-        ||document.getElementById("pod4common10").src == document.getElementById("pod4common8").src
-        ||document.getElementById("pod4common10").src == document.getElementById("pod4common9").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod4common10").src = common[0];
-    }
-}
-function pod4draft15() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod4common11").src = common[0];
-    while (
-        document.getElementById("pod4common11").src == document.getElementById("pod4common4").src
-        ||document.getElementById("pod4common11").src == document.getElementById("pod4common3").src
-        ||document.getElementById("pod4common11").src == document.getElementById("pod4common2").src
-        ||document.getElementById("pod4common11").src == document.getElementById("pod4common1").src
-        ||document.getElementById("pod4common11").src == document.getElementById("pod4common5").src
-        ||document.getElementById("pod4common11").src == document.getElementById("pod4common6").src
-        ||document.getElementById("pod4common11").src == document.getElementById("pod4common7").src
-        ||document.getElementById("pod4common11").src == document.getElementById("pod4common8").src
-        ||document.getElementById("pod4common11").src == document.getElementById("pod4common9").src
-        ||document.getElementById("pod4common11").src == document.getElementById("pod4common10").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod4common11").src = common[0];
-    }
-}
-//
-// Draft / Pod5
-//
-//
-function pod5draft1() {
-    rares.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod5rare").src = rares[0];
-}
-function pod5draft2() {
-    uncommon.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod5uncommon1").src = uncommon[0];
-}
-function pod5draft3() {
-    uncommon.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod5uncommon2").src = uncommon[0];
-    while (document.getElementById("pod5uncommon1").src == document.getElementById("pod5uncommon2").src) {
-        uncommon.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod5uncommon2").src = uncommon[0];
-    }
-}
-function pod5draft4() {
-    uncommon.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod5uncommon3").src = uncommon[0];
-    while (
-        document.getElementById("pod5uncommon3").src == document.getElementById("pod5uncommon2").src
-        ||document.getElementById("pod5uncommon3").src == document.getElementById("pod5uncommon1").src)
-        {
-        uncommon.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod5uncommon3").src = uncommon[0];
-    }
-}
-function pod5draft5() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod5common1").src = common[0];
-}
-function pod5draft6() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod5common2").src = common[0];
-    while(
-        document.getElementById("pod5common2").src == document.getElementById("pod5common1").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod5common2").src = common[0];
-    }
-}
-function pod5draft7() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod5common3").src = common[0];
-    while (
-        document.getElementById("pod5common3").src == document.getElementById("pod5common2").src
-        || document.getElementById("pod5common3").src == document.getElementById("pod5common1").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod5common3").src = common[0];
-    }
-}
-function pod5draft8() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod5common4").src = common[0];
-    while (
-        document.getElementById("pod5common4").src == document.getElementById("pod5common3").src
-        ||document.getElementById("pod5common4").src == document.getElementById("pod5common2").src
-        ||document.getElementById("pod5common4").src == document.getElementById("pod5common1").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod5common4").src = common[0];
-    }
-}
-function pod5draft9() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod5common5").src = common[0];
-    while (
-        document.getElementById("pod5common5").src == document.getElementById("pod5common4").src
-        ||document.getElementById("pod5common5").src == document.getElementById("pod5common3").src
-        ||document.getElementById("pod5common5").src == document.getElementById("pod5common2").src
-        ||document.getElementById("pod5common5").src == document.getElementById("pod5common1").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod5common5").src = common[0];
-    }
-}
-function pod5draft10() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod5common6").src = common[0];
-    while (
-        document.getElementById("pod5common6").src == document.getElementById("pod5common4").src
-        ||document.getElementById("pod5common6").src == document.getElementById("pod5common3").src
-        ||document.getElementById("pod5common6").src == document.getElementById("pod5common2").src
-        ||document.getElementById("pod5common6").src == document.getElementById("pod5common1").src
-        ||document.getElementById("pod5common6").src == document.getElementById("pod5common5").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod5common6").src = common[0];
-    }
-}
-function pod5draft11() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod5common7").src = common[0];
-    while (
-        document.getElementById("pod5common7").src == document.getElementById("pod5common4").src
-        ||document.getElementById("pod5common7").src == document.getElementById("pod5common3").src
-        ||document.getElementById("pod5common7").src == document.getElementById("pod5common2").src
-        ||document.getElementById("pod5common7").src == document.getElementById("pod5common1").src
-        ||document.getElementById("pod5common7").src == document.getElementById("pod5common5").src
-        ||document.getElementById("pod5common7").src == document.getElementById("pod5common6").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod5common7").src = common[0];
-    }
-}
-function pod5draft12() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod5common8").src = common[0];
-    while (
-        document.getElementById("pod5common8").src == document.getElementById("pod5common4").src
-        ||document.getElementById("pod5common8").src == document.getElementById("pod5common3").src
-        ||document.getElementById("pod5common8").src == document.getElementById("pod5common2").src
-        ||document.getElementById("pod5common8").src == document.getElementById("pod5common1").src
-        ||document.getElementById("pod5common8").src == document.getElementById("pod5common5").src
-        ||document.getElementById("pod5common8").src == document.getElementById("pod5common6").src
-        ||document.getElementById("pod5common8").src == document.getElementById("pod5common7").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod5common8").src = common[0];
-    }
-}
-function pod5draft13() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod5common9").src = common[0];
-    while (
-        document.getElementById("pod5common9").src == document.getElementById("pod5common4").src
-        ||document.getElementById("pod5common9").src == document.getElementById("pod5common3").src
-        ||document.getElementById("pod5common9").src == document.getElementById("pod5common2").src
-        ||document.getElementById("pod5common9").src == document.getElementById("pod5common1").src
-        ||document.getElementById("pod5common9").src == document.getElementById("pod5common5").src
-        ||document.getElementById("pod5common9").src == document.getElementById("pod5common6").src
-        ||document.getElementById("pod5common9").src == document.getElementById("pod5common7").src
-        ||document.getElementById("pod5common9").src == document.getElementById("pod5common8").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod5common9").src = common[0];
-    }
-}
-function pod5draft14() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod5common10").src = common[0];
-    while (
-        document.getElementById("pod5common10").src == document.getElementById("pod5common4").src
-        ||document.getElementById("pod5common10").src == document.getElementById("pod5common3").src
-        ||document.getElementById("pod5common10").src == document.getElementById("pod5common2").src
-        ||document.getElementById("pod5common10").src == document.getElementById("pod5common1").src
-        ||document.getElementById("pod5common10").src == document.getElementById("pod5common5").src
-        ||document.getElementById("pod5common10").src == document.getElementById("pod5common6").src
-        ||document.getElementById("pod5common10").src == document.getElementById("pod5common7").src
-        ||document.getElementById("pod5common10").src == document.getElementById("pod5common8").src
-        ||document.getElementById("pod5common10").src == document.getElementById("pod5common9").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod5common10").src = common[0];
-    }
-}
-function pod5draft15() {
-    common.sort(function(){return 0.5 - Math.random()});
-    document.getElementById("pod5common11").src = common[0];
-    while (
-        document.getElementById("pod5common11").src == document.getElementById("pod5common4").src
-        ||document.getElementById("pod5common11").src == document.getElementById("pod5common3").src
-        ||document.getElementById("pod5common11").src == document.getElementById("pod5common2").src
-        ||document.getElementById("pod5common11").src == document.getElementById("pod5common1").src
-        ||document.getElementById("pod5common11").src == document.getElementById("pod5common5").src
-        ||document.getElementById("pod5common11").src == document.getElementById("pod5common6").src
-        ||document.getElementById("pod5common11").src == document.getElementById("pod5common7").src
-        ||document.getElementById("pod5common11").src == document.getElementById("pod5common8").src
-        ||document.getElementById("pod5common11").src == document.getElementById("pod5common9").src
-        ||document.getElementById("pod5common11").src == document.getElementById("pod5common10").src
-    ) {
-        common.sort(function(){return 0.5 - Math.random()});
-        document.getElementById("pod5common11").src = common[0];
-    }
-}
+
 //
 // Draft Pick - Test
 //
@@ -1252,7 +114,7 @@ var test = [
     "http://mythicspoiler.com/m19/cards/woodlandstream1.jpg",
     "http://mythicspoiler.com/m19/cards/totallylost.jpg"
 ]
-var arrayTest = [
+var m19 = [
   {
     name:"Tezzeret, Artifice Master",
     cost:["blue", "blue", "colorless", "colorless", "colorless"],
@@ -3065,7 +1927,7 @@ var arrayTest = [
   {
     name:"Amulet of Safekeeping",
     cost:["colorless", "colorless"],
-    color:"colorless",
+    color:"artifact",
     rarity:"rare",
     rating: 0.5,
     source:"http://mythicspoiler.com/m19/cards/amuletofsafekeeping.jpg"
@@ -3073,7 +1935,7 @@ var arrayTest = [
   {
     name:"Arcane Encyclopedia",
     cost:["colorless", "colorless", "colorless"],
-    color:"colorless",
+    color:"artifact",
     rarity:"uncommon",
     rating: 3,
     source:"http://mythicspoiler.com/m19/cards/arcaneencyclopedia1.jpg"
@@ -3081,7 +1943,7 @@ var arrayTest = [
   {
     name:"Chaos Wand",
     cost:["colorless", "colorless", "colorless"],
-    color:"colorless",
+    color:"artifact",
     rarity:"rare",
     rating: 2.5,
     source:"http://mythicspoiler.com/m19/cards/chaoswand.jpg"
@@ -3089,7 +1951,7 @@ var arrayTest = [
   {
     name:"Crucible of Worlds",
     cost:["colorless", "colorless", "colorless"],
-    color:"colorless",
+    color:"artifact",
     rarity:"rare",
     rating: 0,
     source:"http://mythicspoiler.com/m19/cards/crucibleofworlds.jpg"
@@ -3097,7 +1959,7 @@ var arrayTest = [
   {
     name:"Desecrated Tomb",
     cost:["colorless", "colorless", "colorless"],
-    color:"colorless",
+    color:"artifact",
     rarity:"rare",
     rating: 0,
     source:"http://mythicspoiler.com/m19/cards/desecratedtomb1.jpg"
@@ -3105,7 +1967,7 @@ var arrayTest = [
   {
     name:"Diamond Mare",
     cost:["colorless", "colorless"],
-    color:"colorless",
+    color:"artifact",
     rarity:"uncommon",
     rating: 0.5,
     source:"http://mythicspoiler.com/m19/cards/diamondmare.jpg"
@@ -3113,7 +1975,7 @@ var arrayTest = [
   {
     name:"Dragon’s Hoard",
     cost:["colorless", "colorless", "colorless"],
-    color:"colorless",
+    color:"artifact",
     rarity:"rare",
     rating: 2.5,
     source:"http://mythicspoiler.com/m19/cards/dragonshoard.jpg"
@@ -3121,7 +1983,7 @@ var arrayTest = [
   {
     name:"Explosive Apparatus",
     cost:["colorless"],
-    color:"colorless",
+    color:"artifact",
     rarity:"common",
     rating: 1.5,
     source:"http://mythicspoiler.com/m19/cards/explosiveapparatus.jpg"
@@ -3129,7 +1991,7 @@ var arrayTest = [
   {
     name:"Field Creeper",
     cost:["colorless", "colorless"],
-    color:"colorless",
+    color:"artifact",
     rarity:"common",
     rating: 1,
     source:"http://mythicspoiler.com/m19/cards/fieldcreeper.jpg"
@@ -3137,7 +1999,7 @@ var arrayTest = [
   {
     name:"Fountain of Renewal",
     cost:["colorless"],
-    color:"colorless",
+    color:"artifact",
     rarity:"uncommon",
     rating: 1.5,
     source:"http://mythicspoiler.com/m19/cards/fountainofrenewal.jpg"
@@ -3145,7 +2007,7 @@ var arrayTest = [
   {
     name:"Gargoyle Sentinel",
     cost:["colorless", "colorless", "colorless"],
-    color:"colorless",
+    color:"artifact",
     rarity:"uncommon",
     rating: 2,
     source:"http://mythicspoiler.com/m19/cards/gargoylesentinel.jpg"
@@ -3153,7 +2015,7 @@ var arrayTest = [
   {
     name:"Gearsmith Guardian",
     cost:["colorless", "colorless", "colorless", "colorless", "colorless"],
-    color:"colorless",
+    color:"artifact",
     rarity:"common",
     rating: 1.5,
     source:"http://mythicspoiler.com/m19/cards/gearsmithguardian.jpg"
@@ -3161,7 +2023,7 @@ var arrayTest = [
   {
     name:"Magistrate’s Scepter",
     cost:["colorless", "colorless", "colorless"],
-    color:"colorless",
+    color:"artifact",
     rarity:"rare",
     rating: 0,
     source:"http://mythicspoiler.com/m19/cards/magistratesscepter1.jpg"
@@ -3169,7 +2031,7 @@ var arrayTest = [
   {
     name:"Manalith",
     cost:["colorless", "colorless", "colorless"],
-    color:"colorless",
+    color:"artifact",
     rarity:"common",
     rating: 2,
     source:"http://mythicspoiler.com/m19/cards/manalith1.jpg"
@@ -3177,7 +2039,7 @@ var arrayTest = [
   {
     name:"Marauder’s Axe",
     cost:["colorless", "colorless"],
-    color:"colorless",
+    color:"artifact",
     rarity:"common",
     rating: 1.5,
     source:"http://mythicspoiler.com/m19/cards/maraudersaxe2.jpg"
@@ -3185,7 +2047,7 @@ var arrayTest = [
   {
     name:"Meteor Golem",
     cost:["colorless", "colorless", "colorless", "colorless", "colorless", "colorless", "colorless"],
-    color:"colorless",
+    color:"artifact",
     rarity:"uncommon",
     rating: 1.5,
     source:"http://mythicspoiler.com/m19/cards/meteorgolem.jpg"
@@ -3193,7 +2055,7 @@ var arrayTest = [
   {
     name:"Millstone",
     cost:["colorless", "colorless"],
-    color:"colorless",
+    color:"artifact",
     rarity:"uncommon",
     rating: 1,
     source:"http://mythicspoiler.com/m19/cards/millstone.jpg"
@@ -3201,7 +2063,7 @@ var arrayTest = [
   {
     name:"Rogue’s Gloves",
     cost:["colorless", "colorless"],
-    color:"colorless",
+    color:"artifact",
     rarity:"uncommon",
     rating: 2,
     source:"http://mythicspoiler.com/m19/cards/roguesgloves.jpg"
@@ -3209,7 +2071,7 @@ var arrayTest = [
   {
     name:"Sigiled Sword of Valeron",
     cost:["colorless", "colorless", "colorless"],
-    color:"colorless",
+    color:"artifact",
     rarity:"rare",
     rating: 3.5,
     source:"http://mythicspoiler.com/m19/cards/sigiledswordofvaleron2.jpg"
@@ -3217,7 +2079,7 @@ var arrayTest = [
   {
     name:"Skyscanner",
     cost:["colorless", "colorless", "colorless"],
-    color:"colorless",
+    color:"artifact",
     rarity:"common",
     rating: 3,
     source:"http://mythicspoiler.com/m19/cards/skyscanner1.jpg"
@@ -3225,7 +2087,7 @@ var arrayTest = [
   {
     name:"Suspicious Bookcase",
     cost:["colorless", "colorless"],
-    color:"colorless",
+    color:"artifact",
     rarity:"uncommon",
     rating: 2,
     source:"http://mythicspoiler.com/m19/cards/suspiciousbookcase.jpg"
@@ -3233,7 +2095,7 @@ var arrayTest = [
   {
     name:"Transmogrifying Wand",
     cost:["colorless", "colorless", "colorless"],
-    color:"colorless",
+    color:"artifact",
     rarity:"rare",
     rating: 3.5,
     source:"http://mythicspoiler.com/m19/cards/transmogrifyingwand2.jpg"

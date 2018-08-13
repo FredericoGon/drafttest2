@@ -1,10 +1,4 @@
 $(document).ready(function(){
-  //   Teste com a Array mais complexa
-
-  // Fazer uma função com tudo necessário para criar a carta
-  // Ainda não está funcionando, então não estou usando essa Function em lugar nenhum
-
-  // Função para gerar imagem
 
   function createImage(index, boosterCards){
     var imgName = $("<img>").attr({
@@ -12,23 +6,20 @@ $(document).ready(function(){
     });
 
     return imgName;
-    //$("#createBoosterDiv").append(imgName);
   }
 
-  //Código para gerar uma nova array com o Booster
+  function selectCards(cardRarity, cardCount, set) {
 
-  function selectCards(cardRarity, cardCount) {
-    //Array com todas as Uncommon
-    var cardsFilteredByRarity = arrayTest.filter(carta => carta.rarity == cardRarity);
+    var cardsFilteredByRarity = set.filter(carta => carta.rarity == cardRarity);
     var cardsSelected = [];
     var totalCardsPosibility = cardsFilteredByRarity.length;
 
-    while(cardsSelected.length != cardCount){ // Mandando gerar cartas até chegar à 4 cartas no booster
+    while(cardsSelected.length != cardCount){
 
-      var cardIndex = Math.floor((Math.random() * totalCardsPosibility)); // randomizando as próximas cartas
+      var cardIndex = Math.floor((Math.random() * totalCardsPosibility));
       var selectedCard = cardsFilteredByRarity[cardIndex];
 
-      while(cardsSelected.find(carta => carta.name == selectedCard.name)){ //compara
+      while(cardsSelected.find(carta => carta.name == selectedCard.name)){
         cardIndex = Math.floor((Math.random() * totalCardsPosibility));
         selectedCard = cardsFilteredByRarity[cardIndex];
       }
@@ -39,33 +30,49 @@ $(document).ready(function(){
     return cardsSelected;
   }
 
-  var booster = [];
+   function generateBooster(set) {
+    boosterNumber = [];
+    var cardRare =      selectCards('rare',     1, set);
+    var cardsUncommon = selectCards('uncommon', 3, set);
+    var cardsCommon =   selectCards('common',   10, set);
+    var cardLand =      selectCards('lcommon',  1, set);
+
+    boosterNumber = boosterNumber.concat(cardRare);
+    boosterNumber = boosterNumber.concat(cardsUncommon);
+    boosterNumber = boosterNumber.concat(cardsCommon);
+    boosterNumber = boosterNumber.concat(cardLand);
+
+    $("#createBoosterDiv").append($("</br>"));
+
+    for (var i = 0; i < boosterNumber.length; i++)
+    {
+      $("#createBoosterDiv").append(createImage(i, boosterNumber));
+    }
+    return boosterNumber
+   }
+
+  var booster1 = [];
+  var booster2 = [];
+  var booster3 = [];
+  var booster4 = [];
+  var booster5 = [];
+  var booster6 = [];
+  var pool = [];
 
   $("#generateBooster").click(()=>{
-    booster = [];
-    var cardRare =      selectCards('rare',     1);
-    var cardsUncommon = selectCards('uncommon', 3);
-    var cardsCommon =   selectCards('common',   10);
-    var cardLand =      selectCards('lcommon',  1);
-
-    var poolDeBoosters = []
-    poolDeBoosters.push(booster)
-
-    booster = booster.concat(cardRare);
-    booster = booster.concat(cardsUncommon);
-    booster = booster.concat(cardsCommon);
-    booster = booster.concat(cardLand);
-
-    for (var i = 0; i < booster.length; i++)
-    {
-      $("#createBoosterDiv").append(createImage(i, booster));
-    }
-
+    booster1 = generateBooster(m19);
+    booster2 = generateBooster(m19);
+    booster3 = generateBooster(m19);
+    booster4 = generateBooster(m19);
+    booster5 = generateBooster(m19);
+    booster6 = generateBooster(m19);
+    pool = pool.concat(booster1);
+    pool = pool.concat(booster2);
+    pool = pool.concat(booster3);
+    pool = pool.concat(booster4);
+    pool = pool.concat(booster5);
+    pool = pool.concat(booster6);
   })
-
-
-
-// Teste para organizar as cores
 
   function colorToNumber(card) {
     switch (card.color) {
@@ -81,8 +88,10 @@ $(document).ready(function(){
         return 500;
       case "gold":
         return 600;
-      default:
+      case "artifact":
         return 700;
+      default:
+        return 800;
     }
   }
 
@@ -92,19 +101,16 @@ $(document).ready(function(){
 
   $("#colors").click(()=>{
     $("#createBoosterDiv").children().remove();
-    booster.sort((firstCard, secondCard) => {
+    pool.sort((firstCard, secondCard) => {
       return (colorToNumber(firstCard) + getQuantityCost(firstCard)) -
              (colorToNumber(secondCard) + getQuantityCost(secondCard));
     });
 
-    for (var i = 0; i < booster.length; i++)
+    for (var i = 0; i < pool.length; i++)
     {
-      $("#createBoosterDiv").append(createImage(i, booster));
+      $("#createBoosterDiv").append(createImage(i, pool));
     }
   })
-
-
-
 
 // Final da ready function
 });
