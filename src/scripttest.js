@@ -509,7 +509,7 @@ var m19 = [
   },
   {
     name:"Star-Crowned Stag",
-    cost:["white", "colorless", "colorless"],
+    cost:["white", "colorless", "colorless", "colorless"],
     color:"white",
     rarity:"common",
     rating: 3,
