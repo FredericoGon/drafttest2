@@ -56,7 +56,7 @@ $(document).ready(function(){
   var booster4 = [];
   var booster5 = [];
   var booster6 = [];
-  var pool = [];
+  var pool = []; //Pool só é utilizada para o selado
 
   $("#generateBooster").click(()=>{
     booster1 = generateBooster(m19);
@@ -65,7 +65,7 @@ $(document).ready(function(){
     booster4 = generateBooster(m19);
     booster5 = generateBooster(m19);
     booster6 = generateBooster(m19);
-    pool = pool.concat(booster1);
+    pool = pool.concat(booster1); //Pool só é utilizada para o selado
     pool = pool.concat(booster2);
     pool = pool.concat(booster3);
     pool = pool.concat(booster4);
@@ -74,6 +74,18 @@ $(document).ready(function(){
     $("#generateBooster").remove();
   })
 
+  $("#draft").click(()=>{
+    booster1 = generateBooster(m19);
+    booster2 = generateBooster(m19);
+    booster3 = generateBooster(m19);
+    booster4 = generateBooster(m19);
+    booster5 = generateBooster(m19);
+    booster6 = generateBooster(m19);
+    booster7 = generateBooster(m19);
+    booster8 = generateBooster(m19);
+    })
+
+  //Funções exlucivas do Selado
   function colorToNumber(card) {
     switch (card.color) {
       case "white":
@@ -92,14 +104,12 @@ $(document).ready(function(){
         return 700;
       default:
         return 800;
-    }
-  }
-
+    }}
   function getQuantityCost(card) {
     return card.cost.length;
-  }
+  }// Fim de funções para o Selado
 
-  $("#colors").click(()=>{
+  $("#colors").click(()=>{ //Inicio da organização do Selado
     $("#createBoosterDiv").children().remove();
     pool.sort((firstCard, secondCard) => {
       return (colorToNumber(firstCard) + getQuantityCost(firstCard)) -
@@ -136,7 +146,7 @@ $(document).ready(function(){
      });
 
     $("#deckDiv").empty();
-  })
+  }) //Fim do Selado!
 
 
 
