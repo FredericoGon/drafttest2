@@ -1,11 +1,10 @@
 $(document).ready(function(){
 
   function createImage(index, boosterCards){
-    var imgName = $("<img>").attr({
-      "src" : boosterCards[index].source
-    });
-
-    return imgName;
+    var imgName = $("<img>");
+    imgName.attr("src", boosterCards[index].source);
+    imgName.attr("class", "cardImg")
+      return imgName;
   }
 
   function selectCards(cardRarity, cardCount, set) {
@@ -72,6 +71,7 @@ $(document).ready(function(){
     pool = pool.concat(booster4);
     pool = pool.concat(booster5);
     pool = pool.concat(booster6);
+    $("#generateBooster").remove();
   })
 
   function colorToNumber(card) {
@@ -110,7 +110,35 @@ $(document).ready(function(){
     {
       $("#createBoosterDiv").append(createImage(i, pool));
     }
+
+    $("#createBoosterDiv").append($("</br>"));
+    $ ("#createBoosterDiv").append($('<img />',{src: 'http://mythicspoiler.com/m19/cards/plains1.jpg', class: "landImg"}));
+    $ ("#createBoosterDiv").append($('<img />',{src: 'http://mythicspoiler.com/m19/cards/island1.jpg', class: "landImg"}));
+    $ ("#createBoosterDiv").append($('<img />',{src: 'http://mythicspoiler.com/m19/cards/swamp1.jpg', class: "landImg"}));
+    $ ("#createBoosterDiv").append($('<img />',{src: 'http://mythicspoiler.com/m19/cards/mountain1.jpg', class: "landImg"}));
+    $ ("#createBoosterDiv").append($('<img />',{src: 'http://mythicspoiler.com/m19/cards/forest1.jpg', class: "landImg"}));
+
+    $(".cardImg").click(function(){
+      var deckImg = $("<img>");
+      var thisImg = $(this);
+      deckImg.attr("src", thisImg.attr("src"));
+      deckImg.attr("class", "deckImg")
+      $("#deckDiv").append(deckImg);
+      $(this).remove();
+     });
+
+     $(".landImg").click(function(){
+      var deckImg = $("<img>");
+      var thisImg = $(this);
+      deckImg.attr("src", thisImg.attr("src"));
+      deckImg.attr("class", "deckImg")
+      $("#deckDiv").append(deckImg);
+     });
+
+    $("#deckDiv").empty();
   })
+
+
 
 // Final da ready function
 });
